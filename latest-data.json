@@ -1,29 +1,42 @@
 {
-  "generated_at": "2026-06-30T16:30:08.628511-04:00",
+  "generated_at": "2026-06-30T22:18:49.188873-04:00",
   "mode": "manual",
   "holdings_source": "Fidelity Roth IRA transaction history + Robinhood brokerage activity CSV, exported/supplied 2026-06-24",
   "method_note": "Open positions reconstructed from transaction history using FIFO lots. Robinhood options/event contracts are summarized separately; private SPCX is carried at transaction cost until a live/private quote is supplied.",
   "account_cash": {
     "Fidelity Roth IRA": 1233.82,
-    "Robinhood Brokerage": 3191.64
+    "Robinhood Brokerage": 3930.82
   },
   "robinhood_activity": {
     "source_file": "4c1a046c-f993-5424-b739-61c32edf5d2c.csv",
     "option_trade_count": 104,
     "option_realized_cashflow": 1595.46,
+    "stock_sales": [
+      {
+        "symbol": "ORCL",
+        "name": "Oracle",
+        "quantity": 5.028428,
+        "sale_price": 147.0,
+        "gross_proceeds": 739.18,
+        "cost_basis_removed": 1212.01,
+        "realized_pl": -472.83,
+        "account": "Robinhood Brokerage",
+        "note": "Sold yesterday at $147/share; removed from open dashboard holdings and added to cash/math."
+      }
+    ],
     "open_private_or_no_live_quote": [
       "SPCX"
     ]
   },
   "portfolio": {
-    "cash_estimate": 4425.46,
-    "total_equity_value": 19695.414640739997,
-    "total_value_with_cash": 24120.874640739996,
-    "total_cost": 13401.130000000001,
-    "unrealized": 6294.284640739996,
-    "unrealized_pct": 46.96831267766222,
-    "day_change": 260.70785870000003,
-    "day_pct": 1.3414550660518605
+    "cash_estimate": 5164.64,
+    "total_equity_value": 18958.49851734,
+    "total_value_with_cash": 24123.138517339998,
+    "total_cost": 12189.12,
+    "unrealized": 6769.378517339997,
+    "unrealized_pct": 55.536236556371556,
+    "day_change": 266.79225658,
+    "day_pct": 1.427329602006876
   },
   "market": {
     "^GSPC": {
@@ -32,7 +45,7 @@
       "price": 7499.36,
       "change": 58.93,
       "change_pct": 0.79,
-      "volume": 3730116000,
+      "volume": 3763756000,
       "market_cap": null,
       "fifty_two_week_high": 7620.9,
       "fifty_two_week_low": 6177.97,
@@ -47,7 +60,7 @@
       "price": 26213.72,
       "change": 393.57,
       "change_pct": 1.52,
-      "volume": 8675164000,
+      "volume": 8864736000,
       "market_cap": null,
       "fifty_two_week_high": 27190.21,
       "fifty_two_week_low": 20105.41,
@@ -62,7 +75,7 @@
       "price": 52319.2,
       "change": 136.46,
       "change_pct": 0.26,
-      "volume": 623046418,
+      "volume": 639535665,
       "market_cap": null,
       "fifty_two_week_high": 52655.66,
       "fifty_two_week_low": 43340.68,
@@ -119,9 +132,9 @@
     "DX-Y.NYB": {
       "symbol": "DX-Y.NYB",
       "name": "ICE US Dollar Index - Index - C",
-      "price": 101.13,
-      "change": 0.03,
-      "change_pct": 0.03,
+      "price": 101.32,
+      "change": 0.14,
+      "change_pct": 0.13,
       "volume": null,
       "market_cap": null,
       "fifty_two_week_high": 101.8,
@@ -134,10 +147,10 @@
     "CL=F": {
       "symbol": "CL=F",
       "name": "Crude Oil Aug 26",
-      "price": 70.06,
-      "change": -0.69,
-      "change_pct": -0.98,
-      "volume": 169612,
+      "price": 69.71,
+      "change": 0.21,
+      "change_pct": 0.3,
+      "volume": 4406,
       "market_cap": null,
       "fifty_two_week_high": 119.48,
       "fifty_two_week_low": 54.98,
@@ -149,10 +162,10 @@
     "GC=F": {
       "symbol": "GC=F",
       "name": "Gold Aug 26",
-      "price": 4031.0,
-      "change": -7.9,
-      "change_pct": -0.2,
-      "volume": 122350,
+      "price": 3985.0,
+      "change": -53.5,
+      "change_pct": -1.32,
+      "volume": 13094,
       "market_cap": null,
       "fifty_two_week_high": 5586.2,
       "fifty_two_week_low": 3263.9,
@@ -164,13 +177,13 @@
     "BTC-USD": {
       "symbol": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 58610.64,
-      "change": -1537.86,
-      "change_pct": -2.56,
-      "volume": 32383232000,
+      "price": 58734.46,
+      "change": 184.6,
+      "change_pct": 0.32,
+      "volume": 34314942464,
       "market_cap": null,
       "fifty_two_week_high": 126198.07,
-      "fifty_two_week_low": 58075.92,
+      "fifty_two_week_low": 58045.93,
       "previous_close": null,
       "currency": "USD",
       "exchange": "CCC",
@@ -179,10 +192,10 @@
     "ETH-USD": {
       "symbol": "ETH-USD",
       "name": "Ethereum USD",
-      "price": 1573.1,
-      "change": -37.38,
-      "change_pct": -2.32,
-      "volume": 9894554624,
+      "price": 1577.66,
+      "change": 7.92,
+      "change_pct": 0.5,
+      "volume": 9171995648,
       "market_cap": null,
       "fifty_two_week_high": 4953.73,
       "fifty_two_week_low": 1506.51,
@@ -230,14 +243,14 @@
           "published": "Tue, 30 Jun 2026 15:09:08 GMT"
         },
         {
-          "title": "AMD Stock Is Crushing Nvidia's in 2026. Will That Continue? - The Motley Fool",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZmNrRjY5UE1PV2ZRcUJhZlZxOHdmbEpWSzEyb0tlZXllRl84UnRYZXRLQW9WYlQ5a3BhQ29YV0hSd1dFbkVaR0djQlB4Q0xvYjh6TW5JVFlYYjFtTU5TaENFQXF6UVJYM2U5LW1aLUd3N3RVblVuT3JJVFVxcDY5Y3hWaGF0OEhaU0NCNGxKelJlajFXVVE?oc=5",
-          "published": "Mon, 29 Jun 2026 18:45:00 GMT"
+          "title": "Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWDk4dXRoQU1nUG42LVR1VFFkbkt3VG9PWkU0MUFsX2JkTGlvRzd3SF8xTFA4dkxVR0k2RTVNNktSRnhwVVRXTXJLR1FrcVNGZ2trZkw2THRHVjFqWGxuYmN0TWZJUDdNWXVmYzFEMnJVeHVpUTV0VXNIMlFMZDdtOUtvRzFsR3RESEI0VmxBZkVpcHlKVmllWHd4Q2tQTlBPZXVGWdIBqgFBVV95cUxPaDk4dnJ4czJxMk5jRElPLTRYM0R0Y1dxTTlfYVFJbDVacTZORXIxNmZrbXI2djk4ZDY1cGFXZHlILXBvRjVpRlNSdGV5SU1CeHhseDlmSmV3R052dWNPWVcwNUJ5dkZhMV8za3A3WkFwTnZPLTJucG9hc2dkY2FjMEZ1b0tVVWVvTnplMzdRNmJZQUFEcHVZclB6X3U4aXRBQXE0NW9jbWNGQQ?oc=5",
+          "published": "Tue, 30 Jun 2026 20:38:17 GMT"
         },
         {
-          "title": "Intel, AMD Jump 7% as Chip Stocks Catch a Risk-On Bid - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaXZVVkFBMXF2RUMxNDhCbko5M3NsQm5GaXY3QzJtZW5vbktmMmh6eWQ1WGZlbVAtOEl0empicW1QSVo4STctZWJHc2hhUmlmc0NaQ3h6czJDNU9FNi1UNXVkUTc2ZUg1RmJqazZRN0o4SEdBRVo0WENJSmNyaVZBMGtsVi1iQllFQVZiOHRMVQ?oc=5",
-          "published": "Tue, 30 Jun 2026 16:18:10 GMT"
+          "title": "Why Intel Stock Just Popped - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOERzOXdYTm5SUHRoakwzTWhqcl9vSjJJMHRheHFpZmZQNHBwRHdUd1hNRmwwRzFyYldTdkotUnJETkdockM4UGxRZFEtb3FLVnBOUjFsSmFaWXFXSTIxT3FyVHBrSnZLTXFDWWIwMkpTOGZQRVdUd2Y2UEJDNU9KSU9BUi1DdzlxVWpfUnRqRFZLd01hRWZv?oc=5",
+          "published": "Tue, 30 Jun 2026 15:36:09 GMT"
         }
       ],
       "reason": "AMD is moving higher with growth/AI/software sentiment and Nasdaq risk appetite. Broader Nasdaq tone is +1.52%, so beta/growth names may be market-driven today.",
@@ -360,7 +373,7 @@
         "price": 156.66,
         "change": -1.27,
         "change_pct": -0.8,
-        "volume": 10724585,
+        "volume": 10830229,
         "market_cap": null,
         "fifty_two_week_high": 276.8,
         "fifty_two_week_low": 146.32,
@@ -383,14 +396,14 @@
           "published": "Tue, 30 Jun 2026 11:04:00 GMT"
         },
         {
-          "title": "HubSpot vs. Salesforce: Which CRM Stock Is the Better Buy? - AOL.com",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVi05eEZvelVHSUNIb0V0NDFDVGJ0WGdtMXpsSkNJcGhEdVZJeHhtVVRBVmhvYjdkbnFtNUtHclE5RHdEdmNOb2E1NXE3clluaWFlUGhIM21CQmd1cFNrZTNQWmtSVDRlcGUtTVVTZW5BNWZjR3p1bmdud1B4OGV2SA?oc=5",
-          "published": "Tue, 30 Jun 2026 11:50:30 GMT"
+          "title": "Salesforce At The Tipping Point: Brace For 0-5% Growth (NYSE:CRM) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbHlCVTktNEtwRHRCYkVjN2hLa09weU5MTjVUeHZVdlJNX2VaeXB3NUFVemxWSUc3aXh1SjVwWE8yVGotR1hfZ014dnpXb2IycEZkT1kzeTB2MWVRV05UZW1ZdDdiUjEwTlZSM0YxXzY3U0Itckg0MFNTLTEyamttT1NzVno3SS0zTGdLakQ1YldQVXB5SVpNOHR4REdQalhScC16R0xzbFpQUEU?oc=5",
+          "published": "Tue, 30 Jun 2026 03:39:51 GMT"
         },
         {
-          "title": "CRM Stock Slips In Early Trade - This Analyst Says Salesforce Results, Outlook Unlikely To Win Over Either Bulls Or Bears - Stocktwits",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMGF4Z1RjTnBkLTNxODVDVmtHajloVVRPZzZOeWIxb3VTTUE1a2FmN2tXSHFuVU1OdkVmWkpDMVVaMEdyb1JtUDNvM3V5clRzMUNDLWo0WVlyRVJXVVFreGl6cVV6ZVF6VWRQYmZLSUVGZzRFaW9IbEMtaHl2bGh1eXoyUVBJSWhBSW12SndkbDMybk1zSW5rRnVKY3VNekxVczRCZFY2aWZzTHJQdEg4U1FtYm9UV3MzSnpEVEFlanRPOERTTElzOExIWHU?oc=5",
-          "published": "Sun, 28 Jun 2026 17:51:05 GMT"
+          "title": "HubSpot vs. Salesforce: Which CRM Stock Is the Better Buy? - AOL.com",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVi05eEZvelVHSUNIb0V0NDFDVGJ0WGdtMXpsSkNJcGhEdVZJeHhtVVRBVmhvYjdkbnFtNUtHclE5RHdEdmNOb2E1NXE3clluaWFlUGhIM21CQmd1cFNrZTNQWmtSVDRlcGUtTVVTZW5BNWZjR3p1bmdud1B4OGV2SA?oc=5",
+          "published": "Tue, 30 Jun 2026 12:35:30 GMT"
         }
       ],
       "reason": "CRM is moving lower with growth/AI/software sentiment and Nasdaq risk appetite. Broader Nasdaq tone is +1.52%, so beta/growth names may be market-driven today.",
@@ -411,7 +424,7 @@
         "price": 357.37,
         "change": 3.72,
         "change_pct": 1.05,
-        "volume": 33769695,
+        "volume": 34024733,
         "market_cap": null,
         "fifty_two_week_high": 408.61,
         "fifty_two_week_low": 172.77,
@@ -431,7 +444,7 @@
         {
           "title": "Alphabet Inc. (GOOGL) Stock Price, News, Quote & History - Yahoo Finance",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE51cTBUdmJTdWRuVFN1QjQxcDh1ZzMtcElOUHNJck5hcVpNSXNzbE9yYjFOakNHMzBDa3Z6ektnUEV4MkYyU1FkNzZ3TXM1S3M?oc=5",
-          "published": "Mon, 29 Jun 2026 12:35:21 GMT"
+          "published": "Mon, 29 Jun 2026 18:36:59 GMT"
         },
         {
           "title": "Why Is Alphabet Stock (GOOGL) Up? Dow Entry and Google AI Limits on Meta. - Barron's",
@@ -536,7 +549,7 @@
           "published": "Tue, 30 Jun 2026 16:15:00 GMT"
         },
         {
-          "title": "SPY, QQQ Investors Are Rigging A Safety Net Under The Stock Market - State Street SPDR S&P 500 ETF Trust - Benzinga",
+          "title": "Look Closer At SPY, QQQ: Investors Are Rigging A Safety Net Under The Stock Market - Benzinga",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZVFET0x6WGx0NTVzT2hLaU5nQ3BMYVRyVnVXWHhBNm0ySzlPNkp4UWJKb0R6aldOSUwwV0tDcFRzYnhyc1pUVm9yN3BDei1kQ0d5RkgxbHRjdFZwMzlzSExNOTdCZWdFQ2p1Z1l5WlFsWGNxS2lFMWVJYzdzREVWM0JNYXUtSFE5YVRkdFFnVjl2RVVkc3lqa19ZNGdENEp3cVlJNnhNQW85TWs?oc=5",
           "published": "Tue, 30 Jun 2026 18:15:23 GMT"
         },
@@ -602,57 +615,6 @@
       "signal_reason": "Strong daily momentum from a modest return base. If the news confirms the thesis and portfolio concentration is acceptable, consider a small add rather than a full-size chase."
     },
     {
-      "symbol": "ORCL",
-      "name": "Oracle",
-      "quantity": 5.028428,
-      "cost_basis": 1212.01,
-      "avg_cost": 241.0316,
-      "account": "Robinhood Brokerage",
-      "sector": "Cloud / AI Infrastructure",
-      "quote": {
-        "symbol": "ORCL",
-        "name": "Oracle Corporation",
-        "price": 146.55,
-        "change": -1.21,
-        "change_pct": -0.82,
-        "volume": 26772138,
-        "market_cap": null,
-        "fifty_two_week_high": 345.72,
-        "fifty_two_week_low": 134.57,
-        "previous_close": null,
-        "currency": "USD",
-        "exchange": "NYQ",
-        "market_state": null
-      },
-      "price": 146.55,
-      "value": 736.9161234000001,
-      "day_change": -6.08439788,
-      "day_pct": -0.82,
-      "return_pct": -39.19884131319048,
-      "unrealized": -475.09387659999993,
-      "dist_52w_high_pct": -57.61020479000347,
-      "news": [
-        {
-          "title": "Oracle stock suffers its worst weekly slump since the 2001 dot-com bust | ORCL - thestreet.com",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORmRUV3hvTlUwb2RQbXlUcjJXVjFldTMxMnZXSzdmZ01pcktIbkZTV05JT2R6ME1rU1dUR2RKeXRYcXhVMExxYTlKZXNHV0QzUFVpWjIzcmMxMnQ0R3JIV1ptdnlCMkkzZUl0eUNyR3ZldXRXeXZjUXdjY1NqYVZ2ZHNMSEtWVTJDZkRXc0VOaEczcE5qV0dTV0lXckFZVmltd2dDb09BMDQ4bDhIM0RQY05GdDlSWVQxejlR?oc=5",
-          "published": "Mon, 29 Jun 2026 17:33:00 GMT"
-        },
-        {
-          "title": "Is Oracle (ORCL) One of the Oversold Tech Stocks to Buy Now? - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTHYtNlRDTWEzZTl3cjFGN0Z0WFd1OTBRMnBIV0NqRDg1UGhwUnMwd3dNTFByQnFzYWdmOGhqM1FwQnR3bHpIQk5TbWV6RFR5NDRWVmhIcGt2N2w5emNzN3cwR2FYYml5V0drUW54OHE0MV82aVgzSE9ET2dfT2lXNUk2eWFNSldvdXpKMWFEd2RtSVhx?oc=5",
-          "published": "Tue, 30 Jun 2026 11:14:35 GMT"
-        },
-        {
-          "title": "Investors Heavily Search Oracle Corporation (ORCL): Here is What You Need to Know - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNzMxU2xuRkE1Rzd0X051UHZ6djFRcDU3bkNuaGV0eTlXQmhGSWNxQW5nWXBmd1BrUXZRaklTMVcyd1BvSXRnN1lFUVlzSjByRWJjdEFrcVhGLVllSWZNM3J4QlJCOS1aRHlOeUNSMWdHeVJCTmVfSmZ4bjNHQWxGMVo4VHMxbmxBenZrOUdMUHVWSnJVXzlMLU1ablVsQ24wVXZxeHl5ZkpaV0hE?oc=5",
-          "published": "Tue, 30 Jun 2026 13:00:10 GMT"
-        }
-      ],
-      "reason": "ORCL is moving lower; review ticker-specific headlines below. Broader Nasdaq tone is +1.52%, so beta/growth names may be market-driven today.",
-      "signal": "REVIEW / SELL",
-      "signal_reason": "The position is deeply below basis. Treat this as a thesis review: if the original catalyst is broken or opportunity cost is high, consider trimming/selling; if the thesis is intact, wait for confirmation before adding."
-    },
-    {
       "symbol": "UNH",
       "name": "UnitedHealth",
       "quantity": 3.593218,
@@ -666,7 +628,7 @@
         "price": 415.63,
         "change": -4.19,
         "change_pct": -1.0,
-        "volume": 3631703,
+        "volume": 5633452,
         "market_cap": null,
         "fifty_two_week_high": 427.93,
         "fifty_two_week_low": 234.6,
@@ -689,14 +651,14 @@
           "published": "Tue, 30 Jun 2026 13:00:00 GMT"
         },
         {
+          "title": "UNH Stock Rally Fades and Risks Falling Below $400 Despite MS UnitedHealth Upgrade - FXLeaders",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ3JSU3VNaExrbHVYbVpZanJTY3FDTHRCUnFKU1hTMnVLeU1xd05ibS1tQldwWFBsaVJQeWZ4THB0azgzbTRRSENOUXNXTUlqYlltUXo2TzJyeHVNcVl3ZE8tWkx5LTFpVmN2YUZIRnAyVGhtMDNWUVRCaTFMZFlNdHFOX1ZGbkZFMlFaTFRzdkotUGNSSEtXWERDc2pzVVlNdGVTV250b2xsVENUVkZ5Tm1fTkk1emd6UEZIdHdxcXk2QQ?oc=5",
+          "published": "Tue, 30 Jun 2026 22:12:33 GMT"
+        },
+        {
           "title": "UnitedHealth Stock Has Quietly Soared 80% off Its Low. Is the Worst Finally Behind It? - The Motley Fool",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYTlEZFdFRWRjcU91SFJzbzA4UFpzQzA0THhPdWxCZmhaUmVQc25lTGtLY3JWZEU5VDFJSnBHajM0Q2pKWTlDRWh3UTlxOXNVb1ZzczFiajM1TjFSM1phMlc3YUtna3Q1RmFxQ1NNbnNaZWVlMGhJZnVaUTkwQUVZdGo2RjN4Q1RsN2lzclNleEIyQVdhY1E2Zw?oc=5",
           "published": "Sat, 27 Jun 2026 11:03:00 GMT"
-        },
-        {
-          "title": "UnitedHealth Group Stock (UNH) Opinions on Market Rotation and Analyst Upgrades - Quiver Quantitative",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNM2kzX2ZlS2wtM1NZWWxVUV9RdWdCMXM5UW56bk5Nb0l2bTNHLXcxNnNHT1JnMUc3ci05Z2JaQ3BFLVl0YVp2M01zVDZmN3NZM0p5Rk5XbWZ6YkFWZnJFRTdZbWZWc0hydmpyN2VMMWdrZ01UaGgtcEN3V01ybzl5SHVxWDRzY2hZMmtEVm5leWhkSVZmc2JSSzZMcDRyV0VCRVZGVWhZcE0zaWFVYU83ZmtDTE1ITzg?oc=5",
-          "published": "Fri, 26 Jun 2026 14:03:00 GMT"
         }
       ],
       "reason": "UNH is moving lower; review ticker-specific headlines below. Broader Nasdaq tone is +1.52%, so beta/growth names may be market-driven today.",
@@ -730,19 +692,19 @@
       "dist_52w_high_pct": null,
       "news": [
         {
-          "title": "Why is Space Exploration Technologies stock climbing today? - Investing.com",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNFVJN0FQcXNEdTVzRlk3b0pvUjQ0MjZlUkNhc0pwTjVHMktERmdpSnlkek5mVEt3NTZQMXUzOEx5T0djeEh1V3VvVGFvQktQSGl0NmlVYTNIV2JYR21kWVdwdm0tY0ZQU3dxcFdhbmpLdExaUUxOTGZob3pFMmd3aUhweGUxcjY2WXFQSWVyOUpadjkySlB2UzJVRV85WHZWMUwyNW0xTmtEXzMycmlheFQ2bWJIOVIzUlFfMQ?oc=5",
-          "published": "Tue, 30 Jun 2026 15:54:56 GMT"
+          "title": "SpaceX Stock (SPCX): Will Russell 1000 Inclusion Reverse Its Post-IPO Slump? - Barron's",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaUhVZGl6UDlFTjVjYTRCWFlWZDhpTnFnTkJaT1AzOVdjNV8yM2Rrak5WWG90NzR4MkFlY2xRQUNlVDZwc2V6T2RfSTI2Zi1ndFA1bW9VY1ZMbHdOcHR5LUxyajdIRVhqRHVfOTVlbnJRcEZ6cmJ5bWN6X3lYai1lclpFdWNQUQ?oc=5",
+          "published": "Mon, 29 Jun 2026 20:37:00 GMT"
         },
         {
-          "title": "Could the SpaceX, Anthropic, and OpenAI IPOs Trigger a 40% Stock Market Crash? Here's What the Data Says. - The Motley Fool",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYzNxT2NUT0Jaek9BYmlibzIwN09uVGJQeGtsMHc0Ulo0WnZVQ1JzMUVqakNKbkpFbmpQdTBTU1cyOE5CY1NWUjJRdDgzdDJUMDJnS0xIdDJnM3VySjR5amdfbzZNZEpkelN4MXlZVmkzY2dUTzdCeW9fME9zQm5VUm9ENXI4alJwaWQ2WGg3VXZEX2MxWVNzeA?oc=5",
-          "published": "Tue, 30 Jun 2026 16:30:00 GMT"
+          "title": "Prediction: This Will Be SpaceX's Stock Price by the End of 2026 - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQWV0ZkZVaFphWWxnZHBBblNGM1NIMHExY1RrMEtLdjg3VlAwNi1GTklfMXM0YWZETzVhLTdTZ1ZVS0h6RGpVUzFDZ3NhLTVhNEdFMW1FOC10TFVVU1VjdTY1S25uUGhSUmxYb2t1VURpeW5VWnMta1ZMSDVXWXZtZ0VtbWFoOTEzXzlVLXd5S21oNFJRRlBfVW5PanlranYy?oc=5",
+          "published": "Tue, 30 Jun 2026 09:47:00 GMT"
         },
         {
-          "title": "Does It Still Make Sense to Buy SpaceX Stock at Over $160? - 24/7 Wall St.",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMFdBQUFrTUVvZEFTdDI0V1hWSlRqSW44VkhLS09VeWpNLWJKLVN5dlZGSU8xSGQ1RE92b2lWNXF0MndyTGpQX0p2dVBCSXUyZmtsbzlXbDREZlRKeGx6MUtfZW5Fd0pYZmZsX19hbzRPLUpIdFhjVWxieHNHczE1VlVDZ2g4UUgwdkVEUG93N0l4SlJUOUo0ZHpBMWxwX2hQbkE?oc=5",
-          "published": "Tue, 30 Jun 2026 14:05:36 GMT"
+          "title": "SpaceX Stock Has Pulled Back 32%. Time to Buy? - The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRHE0NHZ6SHBUc3dsTkplbHlDY1lMQVNoVXg0VWVZV3JZNjIteTNqR0pXemt3aFh0TWU3N0dhdDJzemdwaXRsNHQwakdTRXNjWkNiblhqcU5VcTBmZDRaX0VqX0JvWFh1bC1SbndFZVJpUDg5NEw3LVJydjluNk5DNGprN3ZRTUJ5bXNBRkpyMA?oc=5",
+          "published": "Mon, 29 Jun 2026 03:31:00 GMT"
         }
       ],
       "reason": "Move driver unavailable from quote feed; check news tape and next data refresh.",
@@ -765,7 +727,7 @@
         "price": 99.28,
         "change": -0.69,
         "change_pct": -0.69,
-        "volume": 14674492,
+        "volume": 17873608,
         "market_cap": null,
         "fifty_two_week_high": 211.48,
         "fifty_two_week_low": 81.24,
@@ -781,9 +743,9 @@
           "published": "Fri, 26 Jun 2026 18:28:28 GMT"
         },
         {
-          "title": "$NOW stock fell 10% this week. Here's what we see in our data. - Quiver Quantitative",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY2V5M3VwLUtsZFV3UWxvUk1OSWpLZGtEdGNvajVNYzlnMGJPS0QzMHdCRlBQcGMzMjBZalIwYlNzaTFOVTB4VGp2RldTeFg3NVdON3NVbFdhX0htZ0R2Rng5NlhibUNoTmpYRGE5bHJQeHVkZFpDdTg2OWpBUG5tUWVab2tOM2xKNURIUHpVTXk0b20yaHpGV21uekF4b2k0anhJ?oc=5",
-          "published": "Sat, 13 Jun 2026 07:00:00 GMT"
+          "title": "Should You Buy Netflix Stock Right Now? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSWhtam91QkdJSm9uOWlkU0U3S3VBQzh5YUZCNHZER1c3TGkxcDloUVNqVDVhZmdkSmZQSlJBNTJRVE52NVBrU1diaVhLWU1yNExYQVA3X0JvRTJRQlo2SENJWFNhaS1WemNxQVNoV2R1TTZRUmNHNnlWVXI0cGszakxPcy1XT2hpVzd5T19rcw?oc=5",
+          "published": "Tue, 30 Jun 2026 20:37:00 GMT"
         }
       ],
       "price": 99.28,
@@ -816,14 +778,14 @@
       },
       "news": [
         {
+          "title": "Vistra Corp. (VST) Stock Slides as Market Rises: Facts to Know Before You Trade - Yahoo Finance Singapore",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZDBfM25fZVY2dkswX191OFN1ay1FeTZiZk85THUyN0tTVWFnaC1NLXJXOVBmLXlla2Q4SnhfMk1zQ1oydUpSSmJBaTdQX0E5dmgzTkZGWUxrWGh5aWY5SzB2UW94My1aNVFSd2VCSlI0cXN1b2NuZUxRM25OQUxMSmtNVQ?oc=5",
+          "published": "Tue, 30 Jun 2026 21:45:04 GMT"
+        },
+        {
           "title": "Vistra (VST) Leans On Power Demand Growth, Is The Stock Still Undervalued? - simplywall.st",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNnc3ZFJIVXViVWVfWmZUYXNRVWZnLTcwZGwxLVZvSWNkQV9SQkNNUFdpT25xaHE0dW1ISlNVTDRlS0lmazVFc1dBaWd6cVFwR3RyQzd3aWlndXBrZ281dnBKWWZKYU5NUUQtUl85ZEU0Ml82ajFMQ3hDVVlEcEtQWmNBT0dpUHFNeERhMnFLOG8wSHRhOUtkdzBtdG9KYXBHYnp3dmZRUW8xNVF0dkx1VFFSYkxlSEdsaDJtUkhNMnbSAcYBQVVfeXFMTnBDR3RqOWt6WEk1SU52MmRKazU1Y0w2M09kS1hveG93cWRoeF9SeFdSZFFEYm9QMWNpM3BDZ1EwU1M5NTk3TVpscFo3QjB5RVVZMmRrTG9kTml6blBrWTN0ZkxtUEpSSEJnbnA2UTBMTzZNckd1SXFYb0xUaGVVSDNYZDhvWlpoZklhVm9WMmpaVkFOclA2b1BobG12R2dQRk9lWGJhN0duT3JCVlEzWlo3VVdGQkhGS1BRY280VzJTSWlialNB?oc=5",
           "published": "Tue, 30 Jun 2026 09:34:56 GMT"
-        },
-        {
-          "title": "Vistra Stock (VST) Opinions on AI Data Center Power Demand - Quiver Quantitative",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVmhNY0RVZmJObUp2Z3piWXBoTy1vY000NGpPRVlqU1BOVmlqejYxZDE4dHp0b2I4ak5nRGZHTno4UmZfUWVERVNoYjJ5S3M3Ui05Sms2WkxfWHdMX3JTc2RTOExveGdmYVdRMnJhSjlzMXdIMGdXLTNrWjJoNFF0VGpsWGJBTklKNVZFaWRmcW1pZC1WLWxlSG44TQ?oc=5",
-          "published": "Sun, 28 Jun 2026 17:32:00 GMT"
         }
       ],
       "price": 158.63,
@@ -861,9 +823,9 @@
           "published": "Tue, 30 Jun 2026 00:18:00 GMT"
         },
         {
-          "title": "What's wrong with Palantir? How investors see the stock - CNBC",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZWxOcFl5RnBtZi1iR3BWa18yUkRLQXdvRjNMQWJ4M0FiREhTQkcyV2VMbEl5N3VEc1dWVVhxR0ZXaDQxWko2VUoybl9uSWJqSEhfelNra2RSQzZaMEVjel95NTlhQjY5dk5XbU1uSU83eng1QWlGbUIxRWMwMW0yLWpjQ3lUR0ZMcjNzLTZVdGNhOUlh?oc=5",
-          "published": "Mon, 29 Jun 2026 14:02:46 GMT"
+          "title": "Palantir and Nvidia Deal: What It Means for PLTR Stock - Barron's",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYjBtMXV4UkxXbWNWNDFuVTdWeWFGWEJXblJFSThPVTV5RGltRDFEdFBKdGQySFphMThyR19GTjdvNnY3Qko4cjlpaEtJakkyaXotdENaSGVWWkloWm9wVjJUVktOMHpqUTVnaGxYZENob05jbnFIaEFkbk5hM2tQVw?oc=5",
+          "published": "Mon, 29 Jun 2026 19:02:00 GMT"
         }
       ],
       "price": 116.67,
@@ -936,14 +898,14 @@
       },
       "news": [
         {
-          "title": "CELH Stock Heads For Another Energized Week: What\u2019s Driving Up Sentiment? - Stocktwits",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUDV6US1HeWdGbDJIVnZoajE3OC04VFFrVzk5VEhiMklnTlYyNFlfdFptSkVaRHRKRnpkNGJVanZNSHFLRW5rUmVwMmV0WmhpeExIRUtuWkdONzV6MXdqZmo0UlJpN1NrSFh1SmRQTWYyVkJJdmJ4VTI1SGh5V05sc3pzNlB6THlPR0JTVWVBdmlCZ2N4dzU2SmZJWm01b1FiNl9uN0FGSkh5ZklBYmNMVzhCb0lTV2NheEo5ekVsekplVTQzZ0VSbTZDZnlvaGFXamc?oc=5",
-          "published": "Mon, 29 Jun 2026 00:20:15 GMT"
+          "title": "Celsius Holdings Inc. (CELH) Stock Falls Amid Market Uptick: What Investors Need to Know - Yahoo Finance Singapore",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTUJtMjBoLTluWVNyV0J3S1NWNjVBUXN0MkZkWDdJRVlCdTBtNVhQMWZKWlprQzJ3cUVaN1A3akkwS3RHa2ZuVHJqaW9BMGY4a3piMUUyU0pWR3NzejBsZjYwN0ZBUEgyWUFySk5vZGhqcWlwV25IalRtWjhqdURfb21XWmMtUDg?oc=5",
+          "published": "Tue, 30 Jun 2026 21:45:05 GMT"
         },
         {
-          "title": "Is Celsius Holdings (CELH) One of the Oversold Stocks to Buy Right Now? - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQVZINUN5dGN3Nk1oZVBtLTNSeWVGbUlFUFNqSUtxUkE1VUY2dVpaWm5WMjQ5TmhaM1Y4S1VRamV4MEdXdURLZjdDcVF5cFhIQ1NTdlNpclFZN1hnUTBYRW1PYXRvVlo1MU9KVlh1U2xva0xudDBYSHU5M2Q2RGtRSW9OTVRXd2FTeVRnLUp6ZkdWMnpOaVZzd25YalQxcUs3?oc=5",
-          "published": "Sun, 07 Jun 2026 07:00:00 GMT"
+          "title": "CELH Stock Trades at $34 Despite Revenue Doubling. Here\u2019s What Deutsche Bank See Ahead - TIKR.com",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdFRwVzk2aW8xTlRNN2R6VjJpMHVMUjFEaWZBcjdnM1FQNlJCVXBTSE9lcmdieWpsSGtYM0d5cGhacWt4a1hIUWw1a2NJRmJ3Vl9YMTR0TkVHUmdzSmYzZXVOTFMyYmV2b25ZLTBFZ3g1T0hvUkEzNVVqckhZa01QS0REMW5xZF92TlV5UExtczF3MVhjb0wyeWdoRVcxTHhQQkJDZU9NeFl5UWpyTHc?oc=5",
+          "published": "Mon, 04 May 2026 07:00:00 GMT"
         }
       ],
       "price": 29.28,
