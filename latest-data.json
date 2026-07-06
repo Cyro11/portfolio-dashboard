@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T13:30:16.992219-04:00",
+  "generated_at": "2026-07-06T14:00:17.645899-04:00",
   "mode": "manual",
   "holdings_source": "Fidelity Roth IRA transaction history + Robinhood brokerage activity CSV, exported/supplied 2026-06-24",
   "method_note": "Open positions reconstructed from transaction history using FIFO lots. Robinhood options/event contracts are summarized separately; private SPCX is carried at transaction cost until a live/private quote is supplied.",
@@ -30,22 +30,22 @@
   },
   "portfolio": {
     "cash_estimate": 5164.64,
-    "total_equity_value": 19100.850297700003,
-    "total_value_with_cash": 24265.490297700002,
+    "total_equity_value": 19055.52632538,
+    "total_value_with_cash": 24220.16632538,
     "total_cost": 12189.12,
-    "unrealized": 6911.730297700002,
-    "unrealized_pct": 56.70409592899242,
-    "day_change": 339.38844922,
-    "day_pct": 1.8089659108706195
+    "unrealized": 6866.4063253799995,
+    "unrealized_pct": 56.3322563514019,
+    "day_change": 293.9519569,
+    "day_pct": 1.5667765994832927
   },
   "market": {
     "^GSPC": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7532.84,
-      "change": 49.6,
-      "change_pct": 0.66,
-      "volume": 1380965000,
+      "price": 7529.67,
+      "change": 46.43,
+      "change_pct": 0.62,
+      "volume": 1494190000,
       "market_cap": null,
       "fifty_two_week_high": 7620.9,
       "fifty_two_week_low": 6201.0,
@@ -57,10 +57,10 @@
     "^IXIC": {
       "symbol": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26125.22,
-      "change": 292.55,
-      "change_pct": 1.13,
-      "volume": 4103073000,
+      "price": 26068.05,
+      "change": 235.38,
+      "change_pct": 0.91,
+      "volume": 4377018000,
       "market_cap": null,
       "fifty_two_week_high": 27190.21,
       "fifty_two_week_low": 20323.02,
@@ -72,10 +72,10 @@
     "^DJI": {
       "symbol": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 52928.84,
-      "change": 28.77,
-      "change_pct": 0.05,
-      "volume": 221867908,
+      "price": 52930.8,
+      "change": 30.73,
+      "change_pct": 0.06,
+      "volume": 237029767,
       "market_cap": null,
       "fifty_two_week_high": 53052.7,
       "fifty_two_week_low": 43340.68,
@@ -87,9 +87,9 @@
     "^RUT": {
       "symbol": "^RUT",
       "name": "Russell 2000",
-      "price": 3021.99,
-      "change": 25.88,
-      "change_pct": 0.86,
+      "price": 3015.66,
+      "change": 19.55,
+      "change_pct": 0.65,
       "volume": 0,
       "market_cap": null,
       "fifty_two_week_high": 3046.59,
@@ -102,9 +102,9 @@
     "^VIX": {
       "symbol": "^VIX",
       "name": "CBOE Volatility Index",
-      "price": 15.84,
-      "change": 0.03,
-      "change_pct": 0.19,
+      "price": 15.96,
+      "change": 0.15,
+      "change_pct": 0.95,
       "volume": 0,
       "market_cap": null,
       "fifty_two_week_high": 35.3,
@@ -118,8 +118,8 @@
       "symbol": "^TNX",
       "name": "CBOE Interest Rate 10 Year T No",
       "price": 4.48,
-      "change": -0.0,
-      "change_pct": -0.09,
+      "change": 0.0,
+      "change_pct": 0.0,
       "volume": 0,
       "market_cap": null,
       "fifty_two_week_high": 5.0,
@@ -132,9 +132,9 @@
     "DX-Y.NYB": {
       "symbol": "DX-Y.NYB",
       "name": "ICE US Dollar Index - Index - C",
-      "price": 100.94,
-      "change": 0.08,
-      "change_pct": 0.08,
+      "price": 100.91,
+      "change": 0.05,
+      "change_pct": 0.05,
       "volume": null,
       "market_cap": null,
       "fifty_two_week_high": 101.8,
@@ -147,10 +147,10 @@
     "CL=F": {
       "symbol": "CL=F",
       "name": "Crude Oil Aug 26",
-      "price": 68.28,
-      "change": -0.41,
-      "change_pct": -0.6,
-      "volume": 173092,
+      "price": 68.78,
+      "change": 0.09,
+      "change_pct": 0.13,
+      "volume": 179067,
       "market_cap": null,
       "fifty_two_week_high": 119.48,
       "fifty_two_week_low": 54.98,
@@ -162,10 +162,10 @@
     "GC=F": {
       "symbol": "GC=F",
       "name": "Gold Aug 26",
-      "price": 4163.7,
-      "change": 38.0,
-      "change_pct": 0.92,
-      "volume": 133663,
+      "price": 4172.2,
+      "change": 46.5,
+      "change_pct": 1.13,
+      "volume": 136624,
       "market_cap": null,
       "fifty_two_week_high": 5586.2,
       "fifty_two_week_low": 3263.9,
@@ -177,10 +177,10 @@
     "BTC-USD": {
       "symbol": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 63845.46,
-      "change": 255.51,
-      "change_pct": 0.4,
-      "volume": 36075716608,
+      "price": 63559.46,
+      "change": -30.49,
+      "change_pct": -0.05,
+      "volume": 36463362048,
       "market_cap": null,
       "fifty_two_week_high": 126198.07,
       "fifty_two_week_low": 57747.77,
@@ -192,10 +192,10 @@
     "ETH-USD": {
       "symbol": "ETH-USD",
       "name": "Ethereum USD",
-      "price": 1795.32,
-      "change": 11.17,
-      "change_pct": 0.63,
-      "volume": 16143014912,
+      "price": 1787.51,
+      "change": 3.36,
+      "change_pct": 0.19,
+      "volume": 16330462208,
       "market_cap": null,
       "fifty_two_week_high": 4953.73,
       "fifty_two_week_low": 1506.51,
@@ -217,10 +217,10 @@
       "quote": {
         "symbol": "AMD",
         "name": "Advanced Micro Devices, Inc.",
-        "price": 556.4,
-        "change": 38.58,
-        "change_pct": 7.45,
-        "volume": 19646639,
+        "price": 553.1,
+        "change": 35.27,
+        "change_pct": 6.81,
+        "volume": 20809027,
         "market_cap": null,
         "fifty_two_week_high": 584.73,
         "fifty_two_week_low": 133.5,
@@ -229,13 +229,13 @@
         "exchange": "NMS",
         "market_state": null
       },
-      "price": 556.4,
-      "value": 2922.2128,
-      "day_change": 202.62215999999998,
-      "day_pct": 7.45,
-      "return_pct": 152.5811883070859,
-      "unrealized": 1765.2727999999997,
-      "dist_52w_high_pct": -4.844971183281179,
+      "price": 553.1,
+      "value": 2904.8812,
+      "day_change": 185.23804,
+      "day_pct": 6.81,
+      "return_pct": 151.08313309246805,
+      "unrealized": 1747.9411999999998,
+      "dist_52w_high_pct": -5.409334222632667,
       "news": [
         {
           "title": "Why July Could Be a Big Month for AMD Stock Investors - Yahoo Finance",
@@ -253,7 +253,7 @@
           "published": "Sun, 05 Jul 2026 13:00:02 GMT"
         }
       ],
-      "reason": "AMD is moving higher with growth/AI/software sentiment and Nasdaq risk appetite. Broader Nasdaq tone is +1.13%, so beta/growth names may be market-driven today.",
+      "reason": "AMD is moving higher with growth/AI/software sentiment and Nasdaq risk appetite. Broader Nasdaq tone is +0.91%, so beta/growth names may be market-driven today.",
       "signal": "WAIT FOR DROP",
       "signal_reason": "Strong unrealized gain near highs. Let winners work, but avoid chasing until valuation or price resets."
     },
@@ -268,10 +268,10 @@
       "quote": {
         "symbol": "BA",
         "name": "Boeing Company (The)",
-        "price": 232.75,
-        "change": 6.26,
-        "change_pct": 2.76,
-        "volume": 3321161,
+        "price": 232.6,
+        "change": 6.11,
+        "change_pct": 2.7,
+        "volume": 3477157,
         "market_cap": null,
         "fifty_two_week_high": 254.35,
         "fifty_two_week_low": 176.77,
@@ -280,13 +280,13 @@
         "exchange": "NYQ",
         "market_state": null
       },
-      "price": 232.75,
-      "value": 465.5,
-      "day_change": 12.52,
-      "day_pct": 2.76,
-      "return_pct": 19.35897435897436,
-      "unrealized": 75.5,
-      "dist_52w_high_pct": -8.49223510910163,
+      "price": 232.6,
+      "value": 465.2,
+      "day_change": 12.22,
+      "day_pct": 2.7,
+      "return_pct": 19.28205128205128,
+      "unrealized": 75.19999999999999,
+      "dist_52w_high_pct": -8.551208964025948,
       "news": [
         {
           "title": "Why Boeing (BA) Stock Is Trading Up Today - Yahoo Finance",
@@ -299,12 +299,12 @@
           "published": "Thu, 02 Jul 2026 18:32:00 GMT"
         },
         {
-          "title": "The Boeing Company $BA Stock Position Lifted by IFM Investors Pty Ltd - MarketBeat",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONHhBa1J5NWVoRlMxd2w3U2xYRE4zZWpRMGFxT042eUVoT1BpU0tTb1Q2QTF4cGlPeWhxWHZVVUJrM0hHc29QQUFrX2JVa056Ty05YXRNRVJJZ19UMEEzbWxDUzVHZjhYTW5xeHMyTUFCa3lrTUNrUnE1TURvOEdHZm10NDRPbjc1Q1ItX3VTWElNS0NUVXhtSFdtQXpRbFpfUUJlUVV3anRfcE9PZkM3WWpnMEo3QjJTVVJ3MGx2MHBuTExLcHdFag?oc=5",
-          "published": "Thu, 02 Jul 2026 07:52:11 GMT"
+          "title": "Boeing Stock (BA) Opinions on China Order and Earnings Outlook - Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZmY2blVrUmxyelM1ajBCSHNtTmZOanB4b201dEtjaGVLZWVKaW1ITF8tZEVmOV9SOEpUWnRzOXJPUXR6MFhBdWtRaFlFX1NEX1lXcHlwOGRGZmNqamlyN1pWTkdENWtEbjd2NW5saHAwV2V6cXJ0dUZjV05RZUFBbERUYTNzNmhqejJYQXFiUUZQT21kQWowVktXMlJGRnYxRUExaw?oc=5",
+          "published": "Thu, 02 Jul 2026 18:32:47 GMT"
         }
       ],
-      "reason": "BA is moving higher; aerospace delivery, safety/regulatory, and defense-cycle headlines matter most. Broader Nasdaq tone is +1.13%, so beta/growth names may be market-driven today.",
+      "reason": "BA is moving higher; aerospace delivery, safety/regulatory, and defense-cycle headlines matter most. Broader Nasdaq tone is +0.91%, so beta/growth names may be market-driven today.",
       "signal": "REVIEW / SELL",
       "signal_reason": "Large negative move or material headline detected. Do not average down automatically; check whether forward estimates, regulation, or the core thesis changed."
     },
@@ -319,10 +319,10 @@
       "quote": {
         "symbol": "CIBR",
         "name": "First Trust NASDAQ Cybersecurit",
-        "price": 93.18,
-        "change": 2.51,
-        "change_pct": 2.77,
-        "volume": 1112499,
+        "price": 92.83,
+        "change": 2.16,
+        "change_pct": 2.38,
+        "volume": 1235832,
         "market_cap": null,
         "fifty_two_week_high": 94.39,
         "fifty_two_week_low": 60.07,
@@ -331,13 +331,13 @@
         "exchange": "NGM",
         "market_state": null
       },
-      "price": 93.18,
-      "value": 2795.4,
-      "day_change": 75.3,
-      "day_pct": 2.77,
-      "return_pct": 42.19296817774884,
-      "unrealized": 829.48,
-      "dist_52w_high_pct": -1.2819154571458775,
+      "price": 92.83,
+      "value": 2784.9,
+      "day_change": 64.80000000000001,
+      "day_pct": 2.38,
+      "return_pct": 41.65886709530398,
+      "unrealized": 818.98,
+      "dist_52w_high_pct": -1.652717448882299,
       "news": [
         {
           "title": "How First Trust Nasdaq Cea Cybersecurity Etf (CIBR) Affects Rotational Strategy Timing - Stock Traders Daily",
@@ -345,9 +345,9 @@
           "published": "Mon, 06 Jul 2026 12:34:02 GMT"
         },
         {
-          "title": "Why Cybersecurity ETF CIBR Belongs in Every Retirement Portfolio Right Now - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZjNVX2tOUW5XZkdkWmdqeS1kZExvdFp3SEdrdExvZzJNWXJqQVdXSm1KTzhXaUJZRXBfWFhmSml6VnBTWnpqYzJsM05ZUUJPNHFOeXJzcEhBSVBBUHJqRmVfa0pZTXpsTWw3em5yY1lRUXkyQTdkbGs2TXhmTlRFaFQxdEJ0cUE?oc=5",
-          "published": "Wed, 04 Mar 2026 08:00:00 GMT"
+          "title": "This ETF Is Flying High Again. Here's How to Tell If It Will Continue. - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTGdtQktCQVhfRGJ3b19EV1JxQUZhVWE4R0dacWJHSTQzUFI1N191SUhlcGhETm5zNi05V0x4ZTMzNG9WdG1OYWxqZGVUVU9Va2dXY0lsRUFwRzVuQnVENUFNRVhkN3p5UHNVdzhFVDZGaXRTOWZIRnBNTDNHVEFrbnM5WGM3d2owWGQyX3QzSURrdDlYbERj?oc=5",
+          "published": "Fri, 08 May 2026 07:00:00 GMT"
         },
         {
           "title": "CIBR: Why AI Proves To Be A Tailwind, Not Cybersecurity's Demise (Rating Upgrade) - Seeking Alpha",
@@ -355,7 +355,7 @@
           "published": "Mon, 01 Jun 2026 07:00:00 GMT"
         }
       ],
-      "reason": "CIBR is moving higher with its underlying basket and broader market tone. Broader Nasdaq tone is +1.13%, so beta/growth names may be market-driven today.",
+      "reason": "CIBR is moving higher with its underlying basket and broader market tone. Broader Nasdaq tone is +0.91%, so beta/growth names may be market-driven today.",
       "signal": "WAIT FOR DROP",
       "signal_reason": "Strong unrealized gain near highs. Let winners work, but avoid chasing until valuation or price resets."
     },
@@ -370,10 +370,10 @@
       "quote": {
         "symbol": "CRM",
         "name": "Salesforce, Inc.",
-        "price": 167.3,
-        "change": 1.19,
-        "change_pct": 0.72,
-        "volume": 4574339,
+        "price": 166.68,
+        "change": 0.56,
+        "change_pct": 0.34,
+        "volume": 4971189,
         "market_cap": null,
         "fifty_two_week_high": 276.8,
         "fifty_two_week_low": 146.32,
@@ -382,13 +382,13 @@
         "exchange": "NYQ",
         "market_state": null
       },
-      "price": 167.3,
-      "value": 1003.8000000000001,
-      "day_change": 7.14,
-      "day_pct": 0.72,
-      "return_pct": 1.393939393939401,
-      "unrealized": 13.800000000000068,
-      "dist_52w_high_pct": -39.559248554913296,
+      "price": 166.68,
+      "value": 1000.08,
+      "day_change": 3.3600000000000003,
+      "day_pct": 0.34,
+      "return_pct": 1.0181818181818223,
+      "unrealized": 10.080000000000041,
+      "dist_52w_high_pct": -39.78323699421965,
       "news": [
         {
           "title": "Salesforce (CRM) Stock Looks Discounted On Cash Flow And Earnings - simplywall.st",
@@ -406,7 +406,7 @@
           "published": "Wed, 01 Jul 2026 18:47:00 GMT"
         }
       ],
-      "reason": "CRM is little changed; move looks mostly normal intraday noise. Broader Nasdaq tone is +1.13%, so beta/growth names may be market-driven today.",
+      "reason": "CRM is little changed; move looks mostly normal intraday noise. Broader Nasdaq tone is +0.91%, so beta/growth names may be market-driven today.",
       "signal": "REVIEW / SELL",
       "signal_reason": "Large negative move or material headline detected. Do not average down automatically; check whether forward estimates, regulation, or the core thesis changed."
     },
@@ -421,10 +421,10 @@
       "quote": {
         "symbol": "GOOGL",
         "name": "Alphabet Inc.",
-        "price": 365.0,
-        "change": 5.09,
-        "change_pct": 1.41,
-        "volume": 10640279,
+        "price": 364.21,
+        "change": 4.3,
+        "change_pct": 1.19,
+        "volume": 11555631,
         "market_cap": null,
         "fifty_two_week_high": 408.61,
         "fifty_two_week_low": 172.77,
@@ -433,13 +433,13 @@
         "exchange": "NMS",
         "market_state": null
       },
-      "price": 365.0,
-      "value": 2555.0,
-      "day_change": 35.629999999999995,
-      "day_pct": 1.41,
-      "return_pct": 123.02723463687153,
-      "unrealized": 1409.4,
-      "dist_52w_high_pct": -10.672768654707426,
+      "price": 364.21,
+      "value": 2549.47,
+      "day_change": 30.099999999999998,
+      "day_pct": 1.19,
+      "return_pct": 122.54451815642457,
+      "unrealized": 1403.87,
+      "dist_52w_high_pct": -10.866107045838339,
       "news": [
         {
           "title": "Alphabet (GOOGL) Stock May Be A Bargain On Earnings But Full On Cash Flow - simplywall.st",
@@ -457,7 +457,7 @@
           "published": "Mon, 06 Jul 2026 07:01:43 GMT"
         }
       ],
-      "reason": "GOOGL is moving higher with growth/AI/software sentiment and Nasdaq risk appetite. Broader Nasdaq tone is +1.13%, so beta/growth names may be market-driven today.",
+      "reason": "GOOGL is moving higher with growth/AI/software sentiment and Nasdaq risk appetite. Broader Nasdaq tone is +0.91%, so beta/growth names may be market-driven today.",
       "signal": "REVIEW / SELL",
       "signal_reason": "Large negative move or material headline detected. Do not average down automatically; check whether forward estimates, regulation, or the core thesis changed."
     },
@@ -472,10 +472,10 @@
       "quote": {
         "symbol": "LLY",
         "name": "Eli Lilly and Company",
-        "price": 1207.78,
-        "change": -6.13,
-        "change_pct": -0.51,
-        "volume": 1059637,
+        "price": 1207.48,
+        "change": -6.43,
+        "change_pct": -0.53,
+        "volume": 1132430,
         "market_cap": null,
         "fifty_two_week_high": 1238.0,
         "fifty_two_week_low": 623.78,
@@ -484,13 +484,13 @@
         "exchange": "NYQ",
         "market_state": null
       },
-      "price": 1207.78,
-      "value": 3623.34,
-      "day_change": -18.39,
-      "day_pct": -0.51,
-      "return_pct": 80.4946574011806,
-      "unrealized": 1615.89,
-      "dist_52w_high_pct": -2.4410339256865936,
+      "price": 1207.48,
+      "value": 3622.44,
+      "day_change": -19.29,
+      "day_pct": -0.53,
+      "return_pct": 80.44982440409476,
+      "unrealized": 1614.99,
+      "dist_52w_high_pct": -2.4652665589660727,
       "news": [
         {
           "title": "Eli Lilly (LLY) Stock May Trade At A Cash Flow Discount But An Earnings Premium - Yahoo Finance",
@@ -508,7 +508,7 @@
           "published": "Fri, 03 Jul 2026 11:03:05 GMT"
         }
       ],
-      "reason": "LLY is little changed; move looks mostly normal intraday noise. Broader Nasdaq tone is +1.13%, so beta/growth names may be market-driven today.",
+      "reason": "LLY is little changed; move looks mostly normal intraday noise. Broader Nasdaq tone is +0.91%, so beta/growth names may be market-driven today.",
       "signal": "REVIEW / SELL",
       "signal_reason": "Large negative move or material headline detected. Do not average down automatically; check whether forward estimates, regulation, or the core thesis changed."
     },
@@ -523,10 +523,10 @@
       "quote": {
         "symbol": "SPY",
         "name": "State Street SPDR S&P 500 ETF T",
-        "price": 750.66,
-        "change": 5.88,
-        "change_pct": 0.79,
-        "volume": 22397279,
+        "price": 750.24,
+        "change": 5.46,
+        "change_pct": 0.73,
+        "volume": 23959151,
         "market_cap": null,
         "fifty_two_week_high": 760.4,
         "fifty_two_week_low": 617.87,
@@ -535,13 +535,13 @@
         "exchange": "PCX",
         "market_state": null
       },
-      "price": 750.66,
-      "value": 3002.64,
-      "day_change": 23.52,
-      "day_pct": 0.79,
-      "return_pct": 37.552796738283924,
-      "unrealized": 819.7399999999998,
-      "dist_52w_high_pct": -1.2809047869542358,
+      "price": 750.24,
+      "value": 3000.96,
+      "day_change": 21.84,
+      "day_pct": 0.73,
+      "return_pct": 37.47583489852948,
+      "unrealized": 818.06,
+      "dist_52w_high_pct": -1.3361388742766922,
       "news": [
         {
           "title": "SPY 260706 730.00C (SPY260706C730000) Stock Options Chain | Quotes & News - Moomoo",
@@ -559,7 +559,7 @@
           "published": "Wed, 01 Jul 2026 16:16:00 GMT"
         }
       ],
-      "reason": "SPY is moving higher with its underlying basket and broader market tone. Broader Nasdaq tone is +1.13%, so beta/growth names may be market-driven today.",
+      "reason": "SPY is little changed; move looks mostly normal intraday noise. Broader Nasdaq tone is +0.91%, so beta/growth names may be market-driven today.",
       "signal": "WAIT FOR DROP",
       "signal_reason": "Strong unrealized gain near highs. Let winners work, but avoid chasing until valuation or price resets."
     },
@@ -574,10 +574,10 @@
       "quote": {
         "symbol": "SYM",
         "name": "Symbotic Inc.",
-        "price": 43.89,
-        "change": 1.15,
-        "change_pct": 2.69,
-        "volume": 546908,
+        "price": 43.71,
+        "change": 0.97,
+        "change_pct": 2.27,
+        "volume": 615626,
         "market_cap": null,
         "fifty_two_week_high": 87.88,
         "fifty_two_week_low": 38.19,
@@ -586,13 +586,13 @@
         "exchange": "NGM",
         "market_state": null
       },
-      "price": 43.89,
-      "value": 1097.25,
-      "day_change": 28.749999999999996,
-      "day_pct": 2.69,
-      "return_pct": 7.048780487804877,
-      "unrealized": 72.25,
-      "dist_52w_high_pct": -50.05689576695494,
+      "price": 43.71,
+      "value": 1092.75,
+      "day_change": 24.25,
+      "day_pct": 2.27,
+      "return_pct": 6.609756097560976,
+      "unrealized": 67.75,
+      "dist_52w_high_pct": -50.261720527992715,
       "news": [
         {
           "title": "YMM vs. SYM: Which Stock Is the Better Value Option? - Yahoo Finance Singapore",
@@ -610,7 +610,7 @@
           "published": "Tue, 24 Mar 2026 07:00:00 GMT"
         }
       ],
-      "reason": "SYM is moving higher with growth/AI/software sentiment and Nasdaq risk appetite. Broader Nasdaq tone is +1.13%, so beta/growth names may be market-driven today.",
+      "reason": "SYM is moving higher with growth/AI/software sentiment and Nasdaq risk appetite. Broader Nasdaq tone is +0.91%, so beta/growth names may be market-driven today.",
       "signal": "HOLD",
       "signal_reason": "No urgent price/news signal. Keep position, monitor catalysts, and wait for a clearer risk/reward skew before changing sizing."
     },
@@ -625,10 +625,10 @@
       "quote": {
         "symbol": "UNH",
         "name": "UnitedHealth Group Incorporated",
-        "price": 417.65,
-        "change": -7.71,
-        "change_pct": -1.81,
-        "volume": 3203346,
+        "price": 417.41,
+        "change": -7.95,
+        "change_pct": -1.87,
+        "volume": 3302923,
         "market_cap": null,
         "fifty_two_week_high": 430.2,
         "fifty_two_week_low": 234.6,
@@ -637,13 +637,13 @@
         "exchange": "NYQ",
         "market_state": null
       },
-      "price": 417.65,
-      "value": 1500.7074976999997,
-      "day_change": -27.703710779999998,
-      "day_pct": -1.81,
-      "return_pct": 26.077030160210352,
-      "unrealized": 310.3974976999998,
-      "dist_52w_high_pct": -2.917247791724782,
+      "price": 417.41,
+      "value": 1499.84512538,
+      "day_change": -28.5660831,
+      "day_pct": -1.87,
+      "return_pct": 26.004580771395684,
+      "unrealized": 309.53512537999995,
+      "dist_52w_high_pct": -2.9730357973035715,
       "news": [
         {
           "title": "UnitedHealth (UNH) Stock Looks Reasonable Even After A 42% Gain - Yahoo Finance",
@@ -661,7 +661,7 @@
           "published": "Sun, 05 Jul 2026 10:42:37 GMT"
         }
       ],
-      "reason": "UNH is moving lower; review ticker-specific headlines below. Broader Nasdaq tone is +1.13%, so beta/growth names may be market-driven today.",
+      "reason": "UNH is moving lower; review ticker-specific headlines below. Broader Nasdaq tone is +0.91%, so beta/growth names may be market-driven today.",
       "signal": "REVIEW / SELL",
       "signal_reason": "Large negative move or material headline detected. Do not average down automatically; check whether forward estimates, regulation, or the core thesis changed."
     },
@@ -702,9 +702,9 @@
           "published": "Mon, 06 Jul 2026 13:58:27 GMT"
         },
         {
-          "title": "Only 4% of SpaceX Shares Trade Right Now. By December, That Number Could Be 40%. Here's What That Supply Boost Means for Investors - The Motley Fool",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdWVoX1RpX1ladHNldEFmOTFLMHdvaERmaXltcm1QUV9mc2dLOGdVZ3V0VTY5OWtVQm10OUxVMm9CbUluemgycGJLcFd0VC1VN0RjVGRTeFBRVGVqSmdod2RTcGcxdS13SkU2c0plRVoxaWI2YWhEZ3V6Ry1INk1jb3FqXzU3RTZiU1JOREM3dS0?oc=5",
-          "published": "Mon, 06 Jul 2026 15:42:57 GMT"
+          "title": "SpaceX Joins the Nasdaq-100 on July 7. Here Is What This Means for QQQ and QQQM Investors. - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPODFmZkNQLTk3bmdZVXdZMkN1bF9POVJtb0VxeElBX1FsazlTRVdjUVY2aFZiYnNzU2JLS2xacmVTNVA0M243bFR4TUEtMUdYX0ZPbE9IekRuVjRQMXJoeFNCN01Qa1dzZTlCZ1lHSHJoWlRXX29JMnV0SlpueFpjeHBxS3ZTbVRjQnZjajZ3OEhhMUt5ZE1NVQ?oc=5",
+          "published": "Mon, 06 Jul 2026 13:30:00 GMT"
         }
       ],
       "reason": "Move driver unavailable from quote feed; check news tape and next data refresh.",
@@ -724,10 +724,10 @@
       "quote": {
         "symbol": "NOW",
         "name": "ServiceNow, Inc.",
-        "price": 110.13,
-        "change": 3.81,
-        "change_pct": 3.58,
-        "volume": 10532856,
+        "price": 108.58,
+        "change": 2.26,
+        "change_pct": 2.13,
+        "volume": 11389051,
         "market_cap": null,
         "fifty_two_week_high": 210.2,
         "fifty_two_week_low": 81.24,
@@ -748,8 +748,8 @@
           "published": "Mon, 06 Jul 2026 14:11:42 GMT"
         }
       ],
-      "price": 110.13,
-      "day_pct": 3.58,
+      "price": 108.58,
+      "day_pct": 2.13,
       "signal": "LOAD UP WATCH",
       "signal_reason": "Momentum is positive; consider only if catalyst quality and valuation justify chasing."
     },
@@ -764,10 +764,10 @@
       "quote": {
         "symbol": "VST",
         "name": "Vistra Corp.",
-        "price": 154.02,
-        "change": 2.97,
-        "change_pct": 1.97,
-        "volume": 1478196,
+        "price": 153.71,
+        "change": 2.66,
+        "change_pct": 1.76,
+        "volume": 1559625,
         "market_cap": null,
         "fifty_two_week_high": 219.82,
         "fifty_two_week_low": 132.66,
@@ -788,8 +788,8 @@
           "published": "Mon, 06 Jul 2026 16:10:00 GMT"
         }
       ],
-      "price": 154.02,
-      "day_pct": 1.97,
+      "price": 153.71,
+      "day_pct": 1.76,
       "signal": "WATCH",
       "signal_reason": "Monitor setup and wait for cleaner entry/catalyst."
     },
@@ -804,10 +804,10 @@
       "quote": {
         "symbol": "PLTR",
         "name": "Palantir Technologies Inc.",
-        "price": 133.13,
-        "change": 3.83,
-        "change_pct": 2.96,
-        "volume": 23308981,
+        "price": 131.52,
+        "change": 2.22,
+        "change_pct": 1.72,
+        "volume": 24814063,
         "market_cap": null,
         "fifty_two_week_high": 207.52,
         "fifty_two_week_low": 106.37,
@@ -828,10 +828,10 @@
           "published": "Mon, 06 Jul 2026 12:33:00 GMT"
         }
       ],
-      "price": 133.13,
-      "day_pct": 2.96,
-      "signal": "LOAD UP WATCH",
-      "signal_reason": "Momentum is positive; consider only if catalyst quality and valuation justify chasing."
+      "price": 131.52,
+      "day_pct": 1.72,
+      "signal": "WATCH",
+      "signal_reason": "Monitor setup and wait for cleaner entry/catalyst."
     },
     {
       "symbol": "RGTI",
@@ -844,10 +844,10 @@
       "quote": {
         "symbol": "RGTI",
         "name": "Rigetti Computing, Inc.",
-        "price": 18.14,
-        "change": 0.2,
-        "change_pct": 1.09,
-        "volume": 11577853,
+        "price": 17.98,
+        "change": 0.04,
+        "change_pct": 0.22,
+        "volume": 12608260,
         "market_cap": null,
         "fifty_two_week_high": 58.15,
         "fifty_two_week_low": 12.08,
@@ -858,18 +858,18 @@
       },
       "news": [
         {
+          "title": "Rigetti Computing (RGTI) Stock: $2B Quantum Initiative Fuels Rally \u2014 Is Rigetti a Buy at $25.50? - TradingKey",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcVdESEpsVzZHU3ZZcFRxZF9NSnJZR1N3Q2F6VU9LTklqT3ptY0VmLUxGOG9memlaZXFYUE81Q1RaT0wxYUhkSHJKR3hNb1FTYnp4dkVieFhrVlVaeVFMcnhQUURqN0NTQ3RDRkJuUktqOE9hM05oZ0lEamY0RnlaekRQZ0tFdnZhc2ZxZ3JUZWY2SmVZTlNaVmZRRDZUNkhLWmRpSjBfYjhCQU1YR3hia19ZU09EY0ktTmFFcEdR?oc=5",
+          "published": "Sun, 05 Jul 2026 14:15:17 GMT"
+        },
+        {
           "title": "Rigetti Computing, Inc. (RGTI) Stock Moves -3.85%: What You Should Know - Yahoo Finance Singapore",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU0dCOEtFQVVaMElyRzJhWDBJeFBNQWgxOGhQYi16U3FrbEEtaGRfenByNDF1Yk8zOFZqRVdPem0wa3RqYkhKN1d1Mk42ZUVQMkFhbGE3cGRRdHNmLXlwWERPbFJyR0RDWnRwc1RUYUhGUGhjVk9RY1NKalBhbUlZNW1GNFZ4eXQy?oc=5",
           "published": "Thu, 02 Jul 2026 21:50:04 GMT"
-        },
-        {
-          "title": "Trump Provides Fresh Boost To Quantum Computing Space, Signs Two Orders - IBM, INFQ, QBTS, RGTI, QUBT Stocks In Focus - Stocktwits",
-          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNNllSY1VfWGxKRDE2ZFBCaFY4dWtCa3MxaGhvbGg3djVqSkxwMUZ2T3N1UTVlUWVqczZnS1RVX3hOcURZWDNzT3ZVM2V1VFdrMGN2NElHMjNnZk1KTmwwMnphdXNoNnNhMC0tZGNROXpHLW40RGR3RG41R1lqdDFVRUZhOTZJektSSGc2aGs3bDgzYkNUUldDZGkzTExjRjd2T0FkcVp2d1dkNWVnbW9YMWNPUzNKX25NMnliYndNaFQwVkstcFBIV1hRNXRUWmdqYjYtME9OYW96Vk0yWm5PdXYwdkFoQ09rRTk1RDZQMU1iTmtJdnlXRXhQQ0tmS041bldKbQ?oc=5",
-          "published": "Sun, 05 Jul 2026 02:35:56 GMT"
         }
       ],
-      "price": 18.14,
-      "day_pct": 1.09,
+      "price": 17.98,
+      "day_pct": 0.22,
       "signal": "WATCH",
       "signal_reason": "Monitor setup and wait for cleaner entry/catalyst."
     },
@@ -884,10 +884,10 @@
       "quote": {
         "symbol": "CELH",
         "name": "Celsius Holdings, Inc.",
-        "price": 34.13,
-        "change": 0.98,
-        "change_pct": 2.94,
-        "volume": 5026111,
+        "price": 33.68,
+        "change": 0.52,
+        "change_pct": 1.57,
+        "volume": 5403068,
         "market_cap": null,
         "fifty_two_week_high": 66.74,
         "fifty_two_week_low": 27.47,
@@ -908,10 +908,10 @@
           "published": "Fri, 03 Jul 2026 22:11:16 GMT"
         }
       ],
-      "price": 34.13,
-      "day_pct": 2.94,
-      "signal": "LOAD UP WATCH",
-      "signal_reason": "Momentum is positive; consider only if catalyst quality and valuation justify chasing."
+      "price": 33.68,
+      "day_pct": 1.57,
+      "signal": "WATCH",
+      "signal_reason": "Monitor setup and wait for cleaner entry/catalyst."
     },
     {
       "symbol": "ZETA",
@@ -924,10 +924,10 @@
       "quote": {
         "symbol": "ZETA",
         "name": "Zeta Global Holdings Corp.",
-        "price": 21.78,
-        "change": 1.08,
-        "change_pct": 5.22,
-        "volume": 3802197,
+        "price": 21.64,
+        "change": 0.94,
+        "change_pct": 4.54,
+        "volume": 4071483,
         "market_cap": null,
         "fifty_two_week_high": 25.95,
         "fifty_two_week_low": 13.74,
@@ -948,8 +948,8 @@
           "published": "Sat, 04 Jul 2026 14:31:45 GMT"
         }
       ],
-      "price": 21.78,
-      "day_pct": 5.22,
+      "price": 21.64,
+      "day_pct": 4.54,
       "signal": "LOAD UP WATCH",
       "signal_reason": "Momentum is positive; consider only if catalyst quality and valuation justify chasing."
     },
@@ -964,10 +964,10 @@
       "quote": {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "price": 198.55,
-        "change": -6.31,
-        "change_pct": -3.08,
-        "volume": 2991624,
+        "price": 196.12,
+        "change": -8.74,
+        "change_pct": -4.26,
+        "volume": 3283727,
         "market_cap": null,
         "fifty_two_week_high": 386.34,
         "fifty_two_week_low": 160.81,
@@ -988,8 +988,8 @@
           "published": "Mon, 06 Jul 2026 08:44:43 GMT"
         }
       ],
-      "price": 198.55,
-      "day_pct": -3.08,
+      "price": 196.12,
+      "day_pct": -4.26,
       "signal": "WAIT FOR DROP",
       "signal_reason": "Pullback is developing; wait for stabilization/support before buying."
     }
