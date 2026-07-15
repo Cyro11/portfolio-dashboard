@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T16:00:28.038274-04:00",
-  "mode": "manual",
+  "generated_at": "2026-07-15T16:10:28.257475-04:00",
+  "mode": "close",
   "holdings_source": "Fidelity Roth IRA transaction history + Robinhood brokerage activity CSV, exported/supplied 2026-06-24",
   "method_note": "Open positions reconstructed from transaction history using FIFO lots. Robinhood options/event contracts are summarized separately; private SPCX is carried at transaction cost until a live/private quote is supplied.",
   "account_cash": {
@@ -42,10 +42,10 @@
     "^GSPC": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7572.42,
-      "change": 28.83,
+      "price": 7572.4,
+      "change": 28.81,
       "change_pct": 0.38,
-      "volume": 2936927000,
+      "volume": 3075564000,
       "market_cap": null,
       "fifty_two_week_high": 7620.9,
       "fifty_two_week_low": 6201.59,
@@ -60,7 +60,7 @@
       "price": 26269.23,
       "change": 162.22,
       "change_pct": 0.62,
-      "volume": 5498146000,
+      "volume": 6202414000,
       "market_cap": null,
       "fifty_two_week_high": 27190.21,
       "fifty_two_week_low": 20507.06,
@@ -72,10 +72,10 @@
     "^DJI": {
       "symbol": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 52658.52,
-      "change": 150.25,
+      "price": 52658.64,
+      "change": 150.37,
       "change_pct": 0.29,
-      "volume": 493164482,
+      "volume": 505642952,
       "market_cap": null,
       "fifty_two_week_high": 53289.3,
       "fifty_two_week_low": 43340.68,
@@ -87,9 +87,9 @@
     "^RUT": {
       "symbol": "^RUT",
       "name": "Russell 2000",
-      "price": 2977.1,
-      "change": 12.34,
-      "change_pct": 0.42,
+      "price": 2976.26,
+      "change": 11.49,
+      "change_pct": 0.39,
       "volume": 0,
       "market_cap": null,
       "fifty_two_week_high": 3046.59,
@@ -102,9 +102,9 @@
     "^VIX": {
       "symbol": "^VIX",
       "name": "CBOE Volatility Index",
-      "price": 15.7,
-      "change": -0.8,
-      "change_pct": -4.85,
+      "price": 15.66,
+      "change": -0.84,
+      "change_pct": -5.09,
       "volume": 0,
       "market_cap": null,
       "fifty_two_week_high": 35.3,
@@ -132,9 +132,9 @@
     "DX-Y.NYB": {
       "symbol": "DX-Y.NYB",
       "name": "ICE US Dollar Index - Index - C",
-      "price": 100.53,
-      "change": -0.39,
-      "change_pct": -0.38,
+      "price": 100.51,
+      "change": -0.41,
+      "change_pct": -0.4,
       "volume": null,
       "market_cap": null,
       "fifty_two_week_high": 101.8,
@@ -147,10 +147,10 @@
     "CL=F": {
       "symbol": "CL=F",
       "name": "Crude Oil Aug 26",
-      "price": 80.27,
-      "change": 0.93,
-      "change_pct": 1.17,
-      "volume": 212373,
+      "price": 80.35,
+      "change": 1.01,
+      "change_pct": 1.27,
+      "volume": 212999,
       "market_cap": null,
       "fifty_two_week_high": 119.48,
       "fifty_two_week_low": 54.98,
@@ -162,10 +162,10 @@
     "GC=F": {
       "symbol": "GC=F",
       "name": "Gold Aug 26",
-      "price": 4060.8,
-      "change": -8.9,
-      "change_pct": -0.22,
-      "volume": 109342,
+      "price": 4062.9,
+      "change": -6.8,
+      "change_pct": -0.17,
+      "volume": 110122,
       "market_cap": null,
       "fifty_two_week_high": 5586.2,
       "fifty_two_week_low": 3263.9,
@@ -177,10 +177,10 @@
     "BTC-USD": {
       "symbol": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 64884.25,
-      "change": -90.5,
-      "change_pct": -0.14,
-      "volume": 28320313344,
+      "price": 64916.18,
+      "change": -58.57,
+      "change_pct": -0.09,
+      "volume": 28228345856,
       "market_cap": null,
       "fifty_two_week_high": 126198.07,
       "fifty_two_week_low": 57747.77,
@@ -192,10 +192,10 @@
     "ETH-USD": {
       "symbol": "ETH-USD",
       "name": "Ethereum USD",
-      "price": 1921.12,
-      "change": 31.15,
-      "change_pct": 1.65,
-      "volume": 13218454528,
+      "price": 1921.38,
+      "change": 31.41,
+      "change_pct": 1.66,
+      "volume": 13213584384,
       "market_cap": null,
       "fifty_two_week_high": 4953.73,
       "fifty_two_week_low": 1506.51,
@@ -595,6 +595,11 @@
       "dist_52w_high_pct": -51.4792899408284,
       "news": [
         {
+          "title": "Symbotic Schedules Aug. 5 Live Webcast on Fiscal Q3 Results - Stock Titan",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUndLYmcyZE42azBZdlJlOHBmbEpMNmVxdi1QVGV4dVRTaDUzazJwbThFaFFlMThNUU1jR3V0aGFWTGJ2a0s3MERKWTczTkZsODBlOUtuVjliQzFicFYzUjhzNnhrVXFnVUloMW5zZWRjcVJLOXRtcDBQajJlRWhEenZiWHVwd1RRcW5MTDZ3UV9VQV9HWGxzdHdwbjJQUUhNMnN5bmN0SFdlZUVjeG1iUXhYVHRTdlNMTTFQNFRwcw?oc=5",
+          "published": "Wed, 15 Jul 2026 20:01:00 GMT"
+        },
+        {
           "title": "Is Symbotic (SYM) One Of The Best Low-Priced AI Stocks To Buy Right Now? - Yahoo Finance",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSnFVTGhvWVhWSVhDd3lJejFpOGpKd3VPeG96d2RLeHI3MkFqT3FmeTMwSEdmN2IyaTFtMzk5RHJlbnpqZEVIb3JiOHVFYkhpNjZxYTVkUFNETFo1REVjSDk3MjRQSEpjamEwQnJXd3ZaT1dqU2FUZ1piRlhSTWdtYzFtd01LYWZMRmZiNHY2UW9JNWo1?oc=5",
           "published": "Tue, 14 Jul 2026 19:30:28 GMT"
@@ -603,11 +608,6 @@
           "title": "Why SYM Stock Beats A Bond At Its Own Game - Yahoo Finance",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbmdGY2pOUzJUUWt6aFl5OFA2WTNoSF9UaG45WjdXdDdodVY0SElyNDJfWmRvdTFQYkVfSDVUSU5KeWhzdTZLU1pZNUhQODI3WVZ5OHItc1p2TFZCZngzOWRBanBoTnVlZjBHMjcxdVVBZEF3V1J2X2JkVGN4N2ZVMlB2T1JrakxSZ0xtNzRTeFgzQkU?oc=5",
           "published": "Mon, 13 Jul 2026 14:36:51 GMT"
-        },
-        {
-          "title": "Insider Sale: Insider at $SYM Sells 5,590,000 Shares | SYM Stock News - Quiver Quantitative",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQUZ0Qkg0UGdGa0NENXVQT3NaalVZMUZlaE9OWVdnUDRqbWdEekl6MkpPakxnQU1CekN1NWF5MmQ0Nmx1d3pIcGRUNTFzajF0UjRZZ3lteDFLSk9FWDRLMUhoVk9wRWRsS2swWV9YVThxenZzLXM0TG12VjJZWUMwd3pwUlNybUQ2dE5TbFd3?oc=5",
-          "published": "Sat, 30 May 2026 07:00:00 GMT"
         }
       ],
       "reason": "SYM is moving lower with growth/AI/software sentiment and Nasdaq risk appetite. Broader Nasdaq tone is +0.62%, so beta/growth names may be market-driven today.",
@@ -983,9 +983,9 @@
           "published": "Wed, 15 Jul 2026 01:13:19 GMT"
         },
         {
-          "title": "Is CBRS Stock a Buy or a Wait as Growth Meets Execution Risk? - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWUVDT0JpajFMZXpSVVZuc3I4c1ZGeks3WHliNGxNRktybUpoQUJIOVZjQ09nUmNWY21GcmNWT0xWbWJ4bjEySHlBUTRXSXZUczRabk9LME1xa3dULTk4OUZJV2pWU3NTc2xwa1NOWG03RmE4TW5vYUgyaFJyQVBQMURaV0o1XzRoY2pVcDk2a1NKRnpHdnc?oc=5",
-          "published": "Fri, 10 Jul 2026 15:40:00 GMT"
+          "title": "Top Cerebras Systems (CBRS) Competitors 2026 - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORVZncHRzalVRa2p5bFJNM2wxNlFFQzBwU29jeVBjMF94cE9Kcmlxa29JbHdzNDRmTXNNSTF0aWFjbXdMczlBZS1iQTYtNEhoSUg1bkY5TXIzbmtyY2N3S3ZHaHkyaDAwX1VEWWx6dFdMTUh0MUgzalhscmo4M1QyZw?oc=5",
+          "published": "Wed, 15 Jul 2026 02:02:53 GMT"
         }
       ],
       "price": 184.01,
