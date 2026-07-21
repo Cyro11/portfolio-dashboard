@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T16:00:45.757061-04:00",
-  "mode": "manual",
+  "generated_at": "2026-07-21T16:10:46.006136-04:00",
+  "mode": "close",
   "holdings_source": "Fidelity Roth IRA transaction history + Robinhood brokerage activity CSV, exported/supplied 2026-06-24",
   "method_note": "Open positions reconstructed from transaction history using FIFO lots. Robinhood options/event contracts are summarized separately; private SPCX is carried at transaction cost until a live/private quote is supplied.",
   "account_cash": {
@@ -45,7 +45,7 @@
       "price": 7509.2,
       "change": 65.92,
       "change_pct": 0.89,
-      "volume": 2676041000,
+      "volume": 2790311000,
       "market_cap": null,
       "fifty_two_week_high": 7620.9,
       "fifty_two_week_low": 6212.69,
@@ -60,7 +60,7 @@
       "price": 25837.21,
       "change": 329.13,
       "change_pct": 1.29,
-      "volume": 6232168000,
+      "volume": 7017514000,
       "market_cap": null,
       "fifty_two_week_high": 27190.21,
       "fifty_two_week_low": 20560.17,
@@ -72,10 +72,10 @@
     "^DJI": {
       "symbol": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 52223.93,
-      "change": 384.67,
+      "price": 52224.64,
+      "change": 385.38,
       "change_pct": 0.74,
-      "volume": 386797478,
+      "volume": 399184193,
       "market_cap": null,
       "fifty_two_week_high": 53289.3,
       "fifty_two_week_low": 43340.68,
@@ -87,9 +87,9 @@
     "^RUT": {
       "symbol": "^RUT",
       "name": "Russell 2000",
-      "price": 2982.97,
-      "change": 40.54,
-      "change_pct": 1.38,
+      "price": 2987.41,
+      "change": 44.99,
+      "change_pct": 1.53,
       "volume": 0,
       "market_cap": null,
       "fifty_two_week_high": 3046.59,
@@ -102,9 +102,9 @@
     "^VIX": {
       "symbol": "^VIX",
       "name": "CBOE Volatility Index",
-      "price": 16.93,
-      "change": -1.72,
-      "change_pct": -9.22,
+      "price": 16.91,
+      "change": -1.74,
+      "change_pct": -9.33,
       "volume": 0,
       "market_cap": null,
       "fifty_two_week_high": 35.3,
@@ -132,10 +132,10 @@
     "DX-Y.NYB": {
       "symbol": "DX-Y.NYB",
       "name": "ICE US Dollar Index - Index - C",
-      "price": 101.17,
-      "change": 0.22,
-      "change_pct": 0.22,
-      "volume": 0,
+      "price": 101.19,
+      "change": 0.24,
+      "change_pct": 0.23,
+      "volume": null,
       "market_cap": null,
       "fifty_two_week_high": 101.8,
       "fifty_two_week_low": 95.55,
@@ -147,10 +147,10 @@
     "CL=F": {
       "symbol": "CL=F",
       "name": "Crude Oil Sep 26",
-      "price": 84.66,
-      "change": 2.18,
-      "change_pct": 2.64,
-      "volume": 269661,
+      "price": 84.72,
+      "change": 2.24,
+      "change_pct": 2.72,
+      "volume": 270528,
       "market_cap": null,
       "fifty_two_week_high": 119.48,
       "fifty_two_week_low": 54.98,
@@ -162,10 +162,10 @@
     "GC=F": {
       "symbol": "GC=F",
       "name": "Gold Aug 26",
-      "price": 4088.7,
-      "change": 72.8,
-      "change_pct": 1.81,
-      "volume": 114532,
+      "price": 4088.9,
+      "change": 73.0,
+      "change_pct": 1.82,
+      "volume": 115367,
       "market_cap": null,
       "fifty_two_week_high": 5586.2,
       "fifty_two_week_low": 3263.9,
@@ -177,10 +177,10 @@
     "BTC-USD": {
       "symbol": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 66346.29,
-      "change": 1132.19,
-      "change_pct": 1.74,
-      "volume": 29454725120,
+      "price": 66408.58,
+      "change": 1194.48,
+      "change_pct": 1.83,
+      "volume": 29582350336,
       "market_cap": null,
       "fifty_two_week_high": 126198.07,
       "fifty_two_week_low": 57747.77,
@@ -192,10 +192,10 @@
     "ETH-USD": {
       "symbol": "ETH-USD",
       "name": "Ethereum USD",
-      "price": 1921.3,
-      "change": 17.95,
-      "change_pct": 0.94,
-      "volume": 12686694400,
+      "price": 1922.48,
+      "change": 19.13,
+      "change_pct": 1.01,
+      "volume": 12678061056,
       "market_cap": null,
       "fifty_two_week_high": 4953.73,
       "fifty_two_week_low": 1506.51,
@@ -391,6 +391,11 @@
       "dist_52w_high_pct": -37.912408759124084,
       "news": [
         {
+          "title": "CRM Stock Snags Second Rating Downgrade This Month \u2013 Analyst Says Risk/Reward On Salesforce Balanced In Absence Of Notable Growth Inflection - TradingView",
+          "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOMGk0Q3ZDd19waDdTaHFYNUZUN1BsMkNEbWRkNU1jVE9OSGRUdnVkZWV3WGF2ekN3UThpNU45WV9XQUhVUU1zYnVUYmhZX25jb0tkWmFBQWF0X1ZIcHBweXhYTjhZRTgtUkpBLUhWODFGcy0yY1IxY2Zjdzg4NG02NzAyMTczNmQxa0JSNWxac0VoOVAxU21adU1DMFktRWlGZkRaQ0tUbklIZkMtS1JQV0hxZmpOTEV0dXE4VmtJQVA2S1JYQTBBVGVDcTczMkdvOEp0cS1KUXlSM0pHQ0JoUlZFOTFCWmtNRWZfUmY2QVZNUkEwMndoNThCZ25RRmY4YWc3dmxEM0Z3NFBFcHVoSzZkdjA3RnRLWEVZOEpQZlVIYVlN?oc=5",
+          "published": "Tue, 21 Jul 2026 13:07:04 GMT"
+        },
+        {
           "title": "CRM vs. ADYEY: Which Stock Should Value Investors Buy Now? - Yahoo Finance",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVEdIcEJtREJGQjZ4c1VQLVVRSzJ4R3JINWZFZnBsUUZ0UmV5d0czNmhBcDByb3BqemJhZkFVVjBqR3JGVy1ZTkZnMVNsNmt3UVJWRHlyQ1NCVkFHaTdSLUdiT29ONlU0NlhFT3duUGNYVm9HTnROeWNkR0RDd0Z6YWxVSU1kT28zSmR2TG12cDBZM1E?oc=5",
           "published": "Tue, 21 Jul 2026 15:40:03 GMT"
@@ -399,11 +404,6 @@
           "title": "Why Is Salesforce Stock Falling on Tuesday? - Benzinga",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbzJiSDBZOUwtTmQtZ0VLZVdFcmZFR3lJcldJM1g5VGMyMFNSYkFiQy11UW9XS3FjUk44ZGYtZWNZbkYyVXBtbnlEQ0N5UWExanRIaFE3c1VXVHVWRDVLLWhfejVOWWU3UnpZWU1XXzhQWDdFSFN0cEpFU0tHS00wVE5pOUhNVHBnVXdYUFhlR2x5OHNFbU1keWVaV3NkNk1IejkxSG93?oc=5",
           "published": "Tue, 21 Jul 2026 16:01:29 GMT"
-        },
-        {
-          "title": "CRM Stock Snags Second Rating Downgrade This Month \u2013 Analyst Says Risk/Reward On Salesforce Balanced In Absence Of Notable Growth Inflection - Stocktwits",
-          "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOT1pNaUI0WUxZd0R1NXFySDF2aHk1bkJFc3hzY1c4VFE3RFlnWnBUazJ2TW50N0ZPaXZKUHNJTi1rTjhSWEhCWWo1dlVTdGV5SHR0S1RCSS0zMWthS0xMMmVJLXF6eDMyNzlTRE9OWWtlbFg0d1RsbkZyXy1pUmozMXRSbGdad1AxeXFXWVUzQXhubXpIVHc0WW1kM3RFbVJaaktQejJvTE9XdmRyNEhUQTRQU3AzOE5jcnR6M3djUFplejNZSE9MVUdwRndjQmt1eEl2cGoza2I0N1pwSU1qXzNlMDMwbUJDR2h1QTI2MVZNcFpFWmtqZzR3c293WWdBRVNwQm1MOGxFNDRMVVY3VUt3Zk9RTE5IOUpldFI4aU9hQ19jUlRvLWdB?oc=5",
-          "published": "Tue, 21 Jul 2026 13:12:44 GMT"
         }
       ],
       "reason": "CRM is moving lower with growth/AI/software sentiment and Nasdaq risk appetite. Broader Nasdaq tone is +1.29%, so beta/growth names may be market-driven today.",
@@ -743,9 +743,9 @@
           "published": "Tue, 21 Jul 2026 10:14:26 GMT"
         },
         {
-          "title": "NOW Stock On Track To Snap 4 Sessions Of Losses \u2013 Bernstein Has An Interesting Take About AI\u2019s Impact On ServiceNow\u2019s Core Business - Stocktwits",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX2xWbDZmekEtX1p5RHdNcm5oZlRHRUZOZWI1clY0Q2haRjN6Umc2TGFXWWN2RGFoeHF3ZWVsYlpvQjB5Z3lSakRsaXRDT3lKcWFfN0VHWU5NcXlYRjdzS0ZXQlF5QzFrUXo5VnhzY2FyTm9KWnIyRXhhTFZraEh1dmczWDdJSDg4YnhBT0JaeVZqQlVJUTh6U2Y5cUNjZ01lRS1hWFEyLUhlbVFsanlWWkRON1VVaW5TeWZNT3c3eDk?oc=5",
-          "published": "Mon, 20 Jul 2026 20:44:13 GMT"
+          "title": "ServiceNow Stock Falls in Sympathy With IBM After Disappointing Preliminary Q2 Results - Benzinga",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQ0dxd0oyWHlyRlVBNk83eXlKRTF3RHo0U3ZvNzdwZkhMZE9fV0VNeGZZS0prSjdWSEltMld3eTFjNk1oU0dMUU92akxZdDJxeF9IR3o0TEVSTjYxN2FqNzZRMVNjQXFOT3ZlY1dUb2NNVC1yOEJmT0w2eEpLY3Y2YWFoWGhyLUc0bFREYVNfWTZDZFZ5bUx5MWJlYm5EMjlrNU9RZS1JLTh0SVJ2WkpreTZWRjVEUm95WS1lR21BSDMwUFU1WEE1SExJZTJXTjQ3UmZ0MDNITENxOXBxdHBORA?oc=5",
+          "published": "Tue, 14 Jul 2026 12:12:36 GMT"
         }
       ],
       "price": 102.05,
