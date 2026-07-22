@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T16:00:22.233362-04:00",
-  "mode": "manual",
+  "generated_at": "2026-07-22T16:10:22.476398-04:00",
+  "mode": "close",
   "holdings_source": "Fidelity Roth IRA transaction history + Robinhood brokerage activity CSV, exported/supplied 2026-06-24",
   "method_note": "Open positions reconstructed from transaction history using FIFO lots. Robinhood options/event contracts are summarized separately; private SPCX is carried at transaction cost until a live/private quote is supplied.",
   "account_cash": {
@@ -30,22 +30,22 @@
   },
   "portfolio": {
     "cash_estimate": 5164.64,
-    "total_equity_value": 18596.158015579997,
-    "total_value_with_cash": 23760.798015579996,
+    "total_equity_value": 18591.908015579997,
+    "total_value_with_cash": 23756.548015579996,
     "total_cost": 12189.12,
-    "unrealized": 6407.038015579996,
-    "unrealized_pct": 52.56358141998763,
-    "day_change": -134.34901872,
-    "day_pct": -0.717273795492963
+    "unrealized": 6402.788015579996,
+    "unrealized_pct": 52.528714259766055,
+    "day_change": -138.59901872,
+    "day_pct": -0.7399640515133539
   },
   "market": {
     "^GSPC": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7499.04,
-      "change": -10.16,
+      "price": 7498.96,
+      "change": -10.24,
       "change_pct": -0.14,
-      "volume": 2858521000,
+      "volume": 2967697000,
       "market_cap": null,
       "fifty_two_week_high": 7620.9,
       "fifty_two_week_low": 6212.69,
@@ -60,7 +60,7 @@
       "price": 25690.9,
       "change": -146.31,
       "change_pct": -0.57,
-      "volume": 5790394000,
+      "volume": 6525316000,
       "market_cap": null,
       "fifty_two_week_high": 27190.21,
       "fifty_two_week_low": 20560.17,
@@ -72,10 +72,10 @@
     "^DJI": {
       "symbol": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 52219.35,
-      "change": -5.29,
+      "price": 52218.58,
+      "change": -6.06,
       "change_pct": -0.01,
-      "volume": 430881926,
+      "volume": 442555730,
       "market_cap": null,
       "fifty_two_week_high": 53289.3,
       "fifty_two_week_low": 43340.68,
@@ -87,9 +87,9 @@
     "^RUT": {
       "symbol": "^RUT",
       "name": "Russell 2000",
-      "price": 2956.19,
-      "change": -31.21,
-      "change_pct": -1.04,
+      "price": 2958.74,
+      "change": -28.65,
+      "change_pct": -0.96,
       "volume": 0,
       "market_cap": null,
       "fifty_two_week_high": 3046.59,
@@ -132,9 +132,9 @@
     "DX-Y.NYB": {
       "symbol": "DX-Y.NYB",
       "name": "ICE US Dollar Index - Index - C",
-      "price": 101.13,
-      "change": -0.04,
-      "change_pct": -0.04,
+      "price": 101.12,
+      "change": -0.05,
+      "change_pct": -0.05,
       "volume": null,
       "market_cap": null,
       "fifty_two_week_high": 101.8,
@@ -147,10 +147,10 @@
     "CL=F": {
       "symbol": "CL=F",
       "name": "Crude Oil Sep 26",
-      "price": 86.6,
-      "change": 2.26,
-      "change_pct": 2.68,
-      "volume": 322371,
+      "price": 86.48,
+      "change": 2.14,
+      "change_pct": 2.54,
+      "volume": 324003,
       "market_cap": null,
       "fifty_two_week_high": 119.48,
       "fifty_two_week_low": 54.98,
@@ -162,10 +162,10 @@
     "GC=F": {
       "symbol": "GC=F",
       "name": "Gold Aug 26",
-      "price": 4138.3,
-      "change": 61.9,
-      "change_pct": 1.52,
-      "volume": 125220,
+      "price": 4136.6,
+      "change": 60.2,
+      "change_pct": 1.48,
+      "volume": 126584,
       "market_cap": null,
       "fifty_two_week_high": 5586.2,
       "fifty_two_week_low": 3263.9,
@@ -177,10 +177,10 @@
     "BTC-USD": {
       "symbol": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 65885.17,
-      "change": -623.7,
-      "change_pct": -0.94,
-      "volume": 28638109696,
+      "price": 65816.54,
+      "change": -692.33,
+      "change_pct": -1.04,
+      "volume": 28718678016,
       "market_cap": null,
       "fifty_two_week_high": 126198.07,
       "fifty_two_week_low": 57747.77,
@@ -192,10 +192,10 @@
     "ETH-USD": {
       "symbol": "ETH-USD",
       "name": "Ethereum USD",
-      "price": 1925.65,
-      "change": -2.97,
-      "change_pct": -0.15,
-      "volume": 10534980608,
+      "price": 1925.84,
+      "change": -2.78,
+      "change_pct": -0.14,
+      "volume": 10651663360,
       "market_cap": null,
       "fifty_two_week_high": 4953.73,
       "fifty_two_week_low": 1506.51,
@@ -442,19 +442,19 @@
       "dist_52w_high_pct": -16.27958199750374,
       "news": [
         {
-          "title": "Tech stocks live: Tech-heavy Nasdaq climbs ahead of Big Tech earnings kickoff - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOE1SUl9XZi1fZklNUDRLMkpIZW90Ni1RRlZEOFlCZVVpNlIwejZEOTRDOUpOZm9NMDJtZTlqTWV2ejcxSzNaRGdHRldEMU5aV1c2SFc0dktadERBaXJqUHZlN293dEFCZGRpcXV0VmF3WkNvSUNBb29ZOW4xa3dLY2dZd1NGZXA3eUhkRnNSa21fZzJRMWdFcW5MQmxQRThUekg0Z2xjRXljYWlqU25ReDhnZlh2dUZPLWdDMkpHR1ZKZkk1Q2c?oc=5",
-          "published": "Mon, 20 Jul 2026 17:41:14 GMT"
+          "title": "Google parent Alphabet to report Q2 earnings in latest test of AI trade - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQODdxQVdCOG9uQmR5bEpDZUJLcWg2YnRCVktZTVpKYllUdzhUa0RhbElScW11QUh6dE9NUlBoSDlHdlEtazNiQ2k4WTN2ZjZmSWFtbTc1NHFISXA4S3dJVU9kVk5zdVdId3FaMmpPVTVKaGM1aEhQckhVNm16TXZINnZTNkczNWRHQXR0ZnF2Mkk3R0ZuOGYyWGFoXzBiWnlONzYwVUgwR04wVXZSOURmWXgtZ2huT2dESVBmeVduMXljZENVRmh4cXprbw?oc=5",
+          "published": "Wed, 22 Jul 2026 08:46:29 GMT"
         },
         {
-          "title": "Google Earnings Due. Cloud Growth Could Shake Up Big Tech, AI Trade - Investor's Business Daily",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMzJTVjRSRXNMUGNELU9KLUxnYjhWZXpuVy1jOG1vTF9uYnE0b3psOU40SmpJTTZuek9Ld0FXVWxoRWpiTmQwbEd1dHRtUW80b1JjM01lTlJ0TWlWbnVkZW5uRFVHRVdZVnQ5a3h0MHBFUUg5elB6bGpPOW1NejhxYjRzbmFMb2dsaHpYbUZCWmVrd2YwczhITHEyR3VXV0RSSmZldVk2VFJrZWw2QUhUVFFKQVNjVkRZRWdn?oc=5",
-          "published": "Wed, 22 Jul 2026 14:52:00 GMT"
+          "title": "Alphabet Earnings Preview: Will Doubling AI Capex Pay Off for GOOGL Stock? - Barron's",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSjI0MGhTM2Yyb1hsTVJRT083ZWVMbDlIWjE0QU5wNTFCWjg3SFFUbmo0NTlPSVd6TWY0eW1WbEp4MUpNWTR5cWRLYnBIWnRhT2pwMEpTUUl1ZF9Sb2NLQ0UxSWYxM3VnUGtuTDhxM2s3SWhsOG5TS0JZcHFaUXBEOXRKYw?oc=5",
+          "published": "Wed, 22 Jul 2026 18:33:00 GMT"
         },
         {
-          "title": "Alphabet stock pops on report it's developing a more efficient AI chip - CNBC",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1fa3ptelhSNFRhNjR1dmVVMFFLcEduanlBWjNMQWdiSDlNVWRGSmp5RzhMcERtazdIbVJXRm1zS1kzVEpDRWtwNF9ZX2xjaWRMLUFYY1pGOExYbUJ1d2xxSDZCZWVpYVNsNm1CbTQtSnpfbVBZMk5aMEc4TzDSAYIBQVVfeXFMUDl6b19kQzlTZ2hxb2F4eDBWU0JPb0hDeTVPQVc1SWE4bVpuck40OHpEVV9mTWVld3dsR1RZamp2NE50UjFPOVZVSldUdm9DdHAzeGVDd3NGZGdMOVUyMWZvQXNKUnlONV9WNk52UHhSLUZvMENaQkpKMXBEanU0b0hqZw?oc=5",
-          "published": "Mon, 20 Jul 2026 14:00:10 GMT"
+          "title": "Here\u2019s How Much Google Parent Alphabet\u2019s Stock Is Seen Moving After Earnings - Investopedia",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNclBYWnJUZmJxWEgwa0tKMmRGUmxlNi1kVTZ5TVJ1TXFaVnpOalZscGowd2VsdEdMOVJUTWhwb0oyYUFCOFU3bWJrdUFkRUYzRU5GZFdLTDl3a2Z3RTctcnUweUEySjR3bzhHMC1Xcm5yTlBHVVhhR2F1VThpeWlzSWdScF8tUVVlMXRNczVKUGhoSU1UMklmbGJNNWJnODdQb3lPbmZGM1BMSzRsa2cxRjRkbVh4RS14UHpjNXoyNTUwSzdCbTFnOVBn?oc=5",
+          "published": "Tue, 21 Jul 2026 21:17:00 GMT"
         }
       ],
       "reason": "GOOGL is moving lower with growth/AI/software sentiment and Nasdaq risk appetite. Broader Nasdaq tone is -0.57%, so beta/growth names may be market-driven today.",
@@ -574,10 +574,10 @@
       "quote": {
         "symbol": "SYM",
         "name": "Symbotic Inc.",
-        "price": 42.46,
-        "change": -0.4,
-        "change_pct": -0.93,
-        "volume": 760954,
+        "price": 42.29,
+        "change": -0.57,
+        "change_pct": -1.33,
+        "volume": 502047,
         "market_cap": null,
         "fifty_two_week_high": 87.88,
         "fifty_two_week_low": 38.19,
@@ -586,23 +586,23 @@
         "exchange": "NGM",
         "market_state": null
       },
-      "price": 42.46,
-      "value": 1061.5,
-      "day_change": -10.0,
-      "day_pct": -0.93,
-      "return_pct": 3.560975609756097,
-      "unrealized": 36.5,
-      "dist_52w_high_pct": -51.68411470186618,
+      "price": 42.29,
+      "value": 1057.25,
+      "day_change": -14.249999999999998,
+      "day_pct": -1.33,
+      "return_pct": 3.1463414634146343,
+      "unrealized": 32.25,
+      "dist_52w_high_pct": -51.87756030951297,
       "news": [
+        {
+          "title": "YMM or SYM: Which Is the Better Value Stock Right Now? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNN0kyMy15OWlhMjBqMjk3cXdvZ0RFdjU0dXViMWpmTEh1d3NkUG92cTUzd2JnRWtBbjdHR0dfOTZvOVFQUHE2RF9MZ0hpNGk3MXliSjZTbDJ4Q281cmU4Q0VSM3FPcjdTUGlzcmgyNHYwVzBaUkV5V0dqR1lFaEQwOTc0dW5vQm5WZ29Fcm5obnpITTluMUE?oc=5",
+          "published": "Wed, 22 Jul 2026 15:40:02 GMT"
+        },
         {
           "title": "SYM, TSLA Stocks Rise On Reports Of Upcoming Govt. Meeting To Discuss Robotics Policies - Stocktwits",
           "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOc2pjUUl4eFNwOFY3ckUwWmtEdkxhcGJmaGNBMDkweTl2YVF5NGFjSVo1b0w1eENZcUtTcmdHZzNFOTQ1Xy1tRUJCOHI2UmlmaUNsa1Fhcnc2YTNyMWRNMVBfQ0tpMG90Z0JTMjVJbms2QzhrbUJlS2NqWFNjMTVmUlN5R0hYR01ldmI3SWdXQWlrRDVSSU9ZSGN3eFJWVGxDRzMycF9yQTJyUWdlcmdJZjlMWTVWZ2pqUC1GX1l2Zmx5X2hOemFmbF85Z0pvX0JFRGNSNTBtc1FicHVZSElxeTJ1aw?oc=5",
           "published": "Mon, 20 Jul 2026 14:46:53 GMT"
-        },
-        {
-          "title": "Is Symbotic Inc. (SYM) A Good Stock To Buy Now? - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdkxNZjUtcHlpcjVuU1c2b3BMMVNFQ3NDODhSYlVpWDZVUGJBRGRfWGhoNzNVbkk0WTl1Q3ppazlLd1lzY19zQWZKQ2dkaDBTT0NSOGpZc05weHpHNmxRQ0MwM2F6MnpvTWRmOG80RFVyc2wxbnE5ZVQxcXRxbjFFbVNzUVJmdkthOGhsYlhncldacE40Wnh3?oc=5",
-          "published": "Sat, 13 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "Warehouse robotics firm Symbotic joins Google, Nvidia on innovation list - Stock Titan",
@@ -944,8 +944,8 @@
         },
         {
           "title": "This Tiny AI Stock Produces a 600% Return on Marketing Spend for Customers - The Globe and Mail",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWFZMeFF4R1lUQ05lb1pqN3loWVpuMGV1TUc4UC1jUzNwOHVVOFNQOHlIV0dNYXBvRktJZFhfZFNRMmFLdjZVWGFmVEVPdklIaHFaS0ZCTGVpSzdzeG52TlIyb0dzRy0xMVBWUEdVVThiZnRha09NaWtGVmtmaWJydlhqRG5ETWJUOFIzeEVnR0ZIcUl0OEk1em85dzAyTjZldWhTN1YwRGg1c2tNQVpLVWtBb1h2cWtudzRPTThvNTUwNTZRd0RfNWtOejV2WWN3b1pjOU5rSkYzM1l1Rk1Ham9GcW1GbGVNQTRBNVNyMFRmUQ?oc=5",
-          "published": "Wed, 22 Jul 2026 17:59:16 GMT"
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTDktdHZvbTJGYjBHUHRjbVRpZExUc21JU1doRWUwNXdjX202ZkIwRFNMcUg2bllmWmZXblVHZ3I0RGY0b3FFbFhCUWh6eXZTVWFndlZjRUhKb3JEakFFeXFLMkNQeG8xY185TFdIRV8xRWV2NjJDTkNKUWVtTG9aMWwyUWN1ZHltR2xOVUxzOGQ4SWRjTXkwbW8tN3JPcFEySEd1dmx2SHRkZnhCU2s5Yk9BZ085X1p1LTBPMkRzLVNRTWNWa1lOeEp5QlhNbXUxVUVOaTNibFpYeWtVcFJXdkxDUGI0c0U?oc=5",
+          "published": "Wed, 22 Jul 2026 18:21:33 GMT"
         }
       ],
       "price": 20.16,
