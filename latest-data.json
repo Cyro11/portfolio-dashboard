@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T16:00:36.994541-04:00",
-  "mode": "manual",
+  "generated_at": "2026-07-30T16:10:37.244699-04:00",
+  "mode": "close",
   "holdings_source": "Fidelity Roth IRA transaction history + Robinhood brokerage activity CSV, exported/supplied 2026-06-24",
   "method_note": "Open positions reconstructed from transaction history using FIFO lots. Robinhood options/event contracts are summarized separately; private SPCX is carried at transaction cost until a live/private quote is supplied.",
   "account_cash": {
@@ -30,22 +30,22 @@
   },
   "portfolio": {
     "cash_estimate": 5164.64,
-    "total_equity_value": 18267.224547,
-    "total_value_with_cash": 23431.864547,
+    "total_equity_value": 18267.539667,
+    "total_value_with_cash": 23432.179667,
     "total_cost": 12189.12,
-    "unrealized": 6078.104547000001,
-    "unrealized_pct": 49.86499884323069,
-    "day_change": 229.60573273999998,
-    "day_pct": 1.272927070387365
+    "unrealized": 6078.419667,
+    "unrealized_pct": 49.86758409959045,
+    "day_change": 229.92085273999996,
+    "day_pct": 1.2746740859066799
   },
   "market": {
     "^GSPC": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7437.98,
-      "change": 121.83,
-      "change_pct": 1.67,
-      "volume": 3434491000,
+      "price": 7437.63,
+      "change": 121.48,
+      "change_pct": 1.66,
+      "volume": 3554354000,
       "market_cap": null,
       "fifty_two_week_high": 7620.9,
       "fifty_two_week_low": 6212.69,
@@ -60,7 +60,7 @@
       "price": 25122.18,
       "change": 679.24,
       "change_pct": 2.78,
-      "volume": 6911864000,
+      "volume": 7759651000,
       "market_cap": null,
       "fifty_two_week_high": 27190.21,
       "fifty_two_week_low": 20560.17,
@@ -72,10 +72,10 @@
     "^DJI": {
       "symbol": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 52209.57,
-      "change": 615.43,
+      "price": 52208.06,
+      "change": 613.92,
       "change_pct": 1.19,
-      "volume": 606248780,
+      "volume": 626621510,
       "market_cap": null,
       "fifty_two_week_high": 53289.3,
       "fifty_two_week_low": 43340.68,
@@ -87,9 +87,9 @@
     "^RUT": {
       "symbol": "^RUT",
       "name": "Russell 2000",
-      "price": 2945.83,
-      "change": 39.52,
-      "change_pct": 1.36,
+      "price": 2947.8,
+      "change": 41.49,
+      "change_pct": 1.43,
       "volume": 0,
       "market_cap": null,
       "fifty_two_week_high": 3046.59,
@@ -102,9 +102,9 @@
     "^VIX": {
       "symbol": "^VIX",
       "name": "CBOE Volatility Index",
-      "price": 17.43,
-      "change": -3.23,
-      "change_pct": -15.63,
+      "price": 17.46,
+      "change": -3.2,
+      "change_pct": -15.49,
       "volume": 0,
       "market_cap": null,
       "fifty_two_week_high": 35.3,
@@ -132,9 +132,9 @@
     "DX-Y.NYB": {
       "symbol": "DX-Y.NYB",
       "name": "ICE US Dollar Index - Index - C",
-      "price": 99.93,
-      "change": -0.96,
-      "change_pct": -0.95,
+      "price": 99.94,
+      "change": -0.94,
+      "change_pct": -0.93,
       "volume": null,
       "market_cap": null,
       "fifty_two_week_high": 101.8,
@@ -147,10 +147,10 @@
     "CL=F": {
       "symbol": "CL=F",
       "name": "Crude Oil Sep 26",
-      "price": 83.7,
-      "change": -0.76,
-      "change_pct": -0.9,
-      "volume": 210240,
+      "price": 83.63,
+      "change": -0.83,
+      "change_pct": -0.98,
+      "volume": 211070,
       "market_cap": null,
       "fifty_two_week_high": 119.48,
       "fifty_two_week_low": 54.98,
@@ -162,10 +162,10 @@
     "GC=F": {
       "symbol": "GC=F",
       "name": "Gold Aug 26",
-      "price": 4171.1,
-      "change": 74.1,
-      "change_pct": 1.81,
-      "volume": 139651,
+      "price": 4171.6,
+      "change": 74.6,
+      "change_pct": 1.82,
+      "volume": 140425,
       "market_cap": null,
       "fifty_two_week_high": 5586.2,
       "fifty_two_week_low": 3272.9,
@@ -177,10 +177,10 @@
     "BTC-USD": {
       "symbol": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 64827.23,
-      "change": 924.33,
-      "change_pct": 1.45,
-      "volume": 28071090176,
+      "price": 64741.76,
+      "change": 838.86,
+      "change_pct": 1.31,
+      "volume": 27718504448,
       "market_cap": null,
       "fifty_two_week_high": 126198.07,
       "fifty_two_week_low": 57747.77,
@@ -192,10 +192,10 @@
     "ETH-USD": {
       "symbol": "ETH-USD",
       "name": "Ethereum USD",
-      "price": 1924.58,
-      "change": 16.24,
-      "change_pct": 0.85,
-      "volume": 8920780800,
+      "price": 1920.07,
+      "change": 11.73,
+      "change_pct": 0.61,
+      "volume": 8763890688,
       "market_cap": null,
       "fifty_two_week_high": 4953.73,
       "fifty_two_week_low": 1506.51,
@@ -217,10 +217,10 @@
       "quote": {
         "symbol": "AMD",
         "name": "Advanced Micro Devices, Inc.",
-        "price": 485.33,
-        "change": 55.77,
-        "change_pct": 12.98,
-        "volume": 30850579,
+        "price": 485.39,
+        "change": 55.83,
+        "change_pct": 13.0,
+        "volume": 35105728,
         "market_cap": null,
         "fifty_two_week_high": 584.73,
         "fifty_two_week_low": 149.22,
@@ -229,13 +229,13 @@
         "exchange": "NMS",
         "market_state": null
       },
-      "price": 485.33,
-      "value": 2548.95316,
-      "day_change": 292.90404,
-      "day_pct": 12.98,
-      "return_pct": 120.31852645772467,
-      "unrealized": 1392.01316,
-      "dist_52w_high_pct": -16.999298821678387,
+      "price": 485.39,
+      "value": 2549.26828,
+      "day_change": 293.21916,
+      "day_pct": 13.0,
+      "return_pct": 120.34576382526316,
+      "unrealized": 1392.3282799999997,
+      "dist_52w_high_pct": -16.98903767550836,
       "news": [
         {
           "title": "Prediction: AMD Stock Could Double by 2028. Here's Why - Yahoo Finance",
@@ -605,7 +605,7 @@
           "published": "Wed, 29 Jul 2026 20:19:33 GMT"
         },
         {
-          "title": "SYM, TSLA Stocks Rise On Reports Of Upcoming Govt. Meeting To Discuss Robotics Policies - Stocktwits",
+          "title": "SYM, TSLA Stocks Rise On Reports Of Upcoming Govt. Meeting To Discuss Robotics Policies - stocktwits.com",
           "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOc2pjUUl4eFNwOFY3ckUwWmtEdkxhcGJmaGNBMDkweTl2YVF5NGFjSVo1b0w1eENZcUtTcmdHZzNFOTQ1Xy1tRUJCOHI2UmlmaUNsa1Fhcnc2YTNyMWRNMVBfQ0tpMG90Z0JTMjVJbms2QzhrbUJlS2NqWFNjMTVmUlN5R0hYR01ldmI3SWdXQWlrRDVSSU9ZSGN3eFJWVGxDRzMycF9yQTJyUWdlcmdJZjlMWTVWZ2pqUC1GX1l2Zmx5X2hOemFmbF85Z0pvX0JFRGNSNTBtc1FicHVZSElxeTJ1aw?oc=5",
           "published": "Sun, 26 Jul 2026 11:24:55 GMT"
         }
@@ -646,12 +646,12 @@
       "dist_52w_high_pct": -8.691131233482086,
       "news": [
         {
-          "title": "UnitedHealth Group (UNH) Stock Sees Fair Value Lift After Q2 Analyst Target Increases - Yahoo! Finance Canada",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONXpuVjhRb1h3dVpZX3ZRdjNBb2Z1UEE0UWZ0QmxuQ3JKbGNnUFRDcUVzS2NVeThYNWJvT3dXTkw4RGJvdkloaUpfT2pKSkVETGg0NUdTTmpPTDRYc3dOSXd0VjJmZFlIRU9SYUVjY2RNRkdTQ3RqdzZyNEx2Ry0ycjVYN3ZLMUs3eXc?oc=5",
+          "title": "UnitedHealth Group (UNH) Stock Sees Fair Value Lift After Q2 Analyst Target Increases - Yahoo Finance Australia",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeVA4YVZmeU1XUm5NM0JxeXNHNUVwZk5keGJwdEpJNHg1SmRfcnpSNjk5S1FqQVBiZHU5TWF4NlpKc2J1QVZDeVdGNTBpUVozOS1sd3hudkprbmtEa3AxZm96VmktSzBheVBYNHpPSnhYQjU2bU5yZHEzYXFOX19wa0Q2U3RjbkdLSEE?oc=5",
           "published": "Thu, 30 Jul 2026 15:11:34 GMT"
         },
         {
-          "title": "UNH Stock Gains Retail Attention: This UnitedHealth Move Could Make Getting Treatment Faster - Stocktwits",
+          "title": "UNH Stock Gains Retail Attention: This UnitedHealth Move Could Make Getting Treatment Faster - stocktwits.com",
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUjhKS2ViYjg1WDVHMDBlc1NuSVZwbUZCWHFyWkxGUzFNcmlPb1pNWThSQzNKNzRpZmt4R3B0QkdyN0VXXy1IeWllVXVkZVBhSU1oUHAyeVJxUTJUUU1hbVdkQ0dYd3lpVHd2OE5kLWVlc3hDaldGeXhPdmRUbUNyM190Z2lTTGRrOFU3STBrWVhsTGxoY1JMalNueWFReGhmZGw5dWEzM05yNjd6TzhiWk9TajB4M1VMUW9aSA?oc=5",
           "published": "Thu, 30 Jul 2026 08:24:28 GMT"
         },
@@ -697,19 +697,19 @@
           "published": "Thu, 30 Jul 2026 00:07:00 GMT"
         },
         {
-          "title": "SpaceX Stock Now Has $26 Billion in Short Bets \u2014 35% of its Entire Float - Benzinga",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbXZOX0hSY2t6UFI5eDR0VlA4Y2Y2QUNhaENORVZ1dWtJTUI1bTczUGF4cHlOUGM5bVBJV3hMTnJFYU85UFQ3MVpuWG9KRElCWHlfLXZoNV9SOElFcGQ1a1NPVDZ0TU0tVVJCSWRjSHlRdWlkV1NlUHZFZUM3SzJPZ29VX1A1NjJ2RnpwbWZTZFpxQU1JVDF3LW9haThSQ09jV0l0NEg1YmpGWmhFd0l3SjFnVGtaR1hZckFmVmFR?oc=5",
-          "published": "Wed, 29 Jul 2026 15:15:18 GMT"
+          "title": "As SpaceX Stock Eyes Its Fourth Straight Weekly Dive, Musk Makes This Pledge - Investor's Business Daily",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeW1jRk0yc0FnQXU1akNweDgzUEtseDUtRVNfYnRhc2VCLWQzeXkya0YwUFVJZi1nUUw2eS1RUTQ5VTFiVGN3bU1zbDI3dzNyc2hWVzV5dkR2NkFGbGVrYTVwSU1kT3E4WFlIc3ZGVnAtQjVVRnp5ZDNod3NIblYwdWJDNmFhQ3V5VTZ0TmxzWlV0UzVKck8xelo2ODBPY2lYNFlhVS1WbXp0aUY4anczTXVLd1ZNREE?oc=5",
+          "published": "Mon, 27 Jul 2026 20:38:00 GMT"
         },
         {
-          "title": "SpaceX: I'm Starting To Get Interested, But Here's Where I'd Consider Buying (NASDAQ:SPCX) - Seeking Alpha",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMm1hMzVDdnNLUndRZXVncFotcXdUblg4b19FRVdIZ0VZNVR1YVBBZUJrRGJmUXVPOWxFdGsxd2h0clR6SVBsUklVbjJLUWpQamNBYXNjTXZyR2txOTNBQ1NTeGM2X3QwNG45allBaW9uX3kwaHhCemV4ekdKSGdEaEVMS2RmRlBhbWxuRmlKNHozbUVfZFN6UVZEU09GX1hZRl9rMmtiZ1g4NTEwMzVjZWd3?oc=5",
-          "published": "Tue, 28 Jul 2026 14:26:25 GMT"
+          "title": "SpaceX stock sags again to a new low as Q2 earnings approach - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQM29mWkZsSU5Pa3FRM0hITUlwOU02NHlrUTE0S2k3X0xhbEN3aFZ4aVR2TTlxTHEwNFphMmNKTHNTQVF4WVB6akNaLThudmp4ZUZLVEtiUTNsT0FoZFNsMjd6Mko4UC1PZ3V2cjJiRTlJd0JpenQzZUxpT2RLdGZWNUY5Z1VQQ3JDaGl1OGtBOGJjczk5LVAxeDZTcG9JWTlISnowc2tuRWpSQ01QRjhObGhrSUY1NUlneFZwTGRfZkQ4QQ?oc=5",
+          "published": "Wed, 29 Jul 2026 20:05:07 GMT"
         }
       ],
       "reason": "Move driver unavailable from quote feed; check news tape and next data refresh.",
-      "signal": "HOLD",
-      "signal_reason": "No urgent price/news signal. Keep position, monitor catalysts, and wait for a clearer risk/reward skew before changing sizing."
+      "signal": "REVIEW / SELL",
+      "signal_reason": "Large negative move or material headline detected. Do not average down automatically; check whether forward estimates, regulation, or the core thesis changed."
     }
   ],
   "watchlist": [
@@ -898,14 +898,14 @@
       },
       "news": [
         {
+          "title": "Celsius Holdings Sets 8 a.m. ET Call to Discuss Q2 Results - Stock Titan",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYk1nQW5HNVk1WHlEbjJrTUZETDllSEYza3R3aXNtdWJPeUN4LWZrSkNCNGd2YWtXZ3RxM3FZSWZHSzhVUVdzQ0VaemxTUGFMdHNRUzQ2dU0tWEJ5anBxT1RPSS13SFVPVTdybnZoYlZKWERtbld0RkNyYnhQMU54UGs1bTdVY1V5VjJrUkc4TkZoRDRRRGVQYk1fa1ZfanVmNTJLV1Z4aHcxMFgxQXczMm5RM2ZOWF9wNjJ4NzBCM1E?oc=5",
+          "published": "Thu, 30 Jul 2026 20:05:00 GMT"
+        },
+        {
           "title": "Celsius (CELH) Stock Looks Rich On Earnings But Backed By Growth - Yahoo Finance",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZXJUQVptZmFLZDdnd09KTnRqc056eklkUVpYc1hSXzNVMXIwaWpYdTVadklIVk85ek5abGYtTXlSVi1LMVBlcy1DcHY5a1pKZEloZlprS3d2RUlBZFJ0VEJhdHFUVGlNTW11c2pvRlF4aUEzV1VuZEhzd0ZkdVdSRlE0cXNJVGJLMmlwcFBvSUdUcVhoQWdUQU5B?oc=5",
           "published": "Tue, 28 Jul 2026 01:08:00 GMT"
-        },
-        {
-          "title": "$CELH stock is up 3% today. Here's what we see in our data. - Quiver Quantitative",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRG1pV3JqcmV1Z0xudE9WN1hzeEZOWW5pekt5clQwWEhuVjVjM1pzWUczUWZHYWEtX1VPRUpxMkhISzRzLXZqcTRSZGdsM3UtVU5yZm1qM1RZV1U2bkgxZVdwblJkWU5JTHo3aHRKMFZURk05c0Rkb0ZPdTZ1V040bFExMDNTb1FENm1rdHN1QW5FYklsTUtSWFpOMDRkUQ?oc=5",
-          "published": "Mon, 27 Jul 2026 14:52:00 GMT"
         }
       ],
       "price": 29.35,
