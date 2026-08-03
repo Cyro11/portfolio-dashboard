@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-03T16:00:22.985501-04:00",
-  "mode": "manual",
+  "generated_at": "2026-08-03T16:10:23.260083-04:00",
+  "mode": "close",
   "holdings_source": "Fidelity Roth IRA transaction history + Robinhood brokerage activity CSV, exported/supplied 2026-06-24",
   "method_note": "Open positions reconstructed from transaction history using FIFO lots. Robinhood options/event contracts are summarized separately; private SPCX is carried at transaction cost until a live/private quote is supplied.",
   "account_cash": {
@@ -30,22 +30,22 @@
   },
   "portfolio": {
     "cash_estimate": 5164.64,
-    "total_equity_value": 18726.99854156,
-    "total_value_with_cash": 23891.638541559998,
+    "total_equity_value": 18727.943901559996,
+    "total_value_with_cash": 23892.583901559996,
     "total_cost": 12189.12,
-    "unrealized": 6537.878541559998,
-    "unrealized_pct": 53.63700202770993,
-    "day_change": 307.14920236,
-    "day_pct": 1.6674903073519924
+    "unrealized": 6538.823901559996,
+    "unrealized_pct": 53.644757796789236,
+    "day_change": 308.09456236,
+    "day_pct": 1.6726225968870005
   },
   "market": {
     "^GSPC": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7600.49,
-      "change": 110.77,
+      "price": 7600.5,
+      "change": 110.78,
       "change_pct": 1.48,
-      "volume": 3026475000,
+      "volume": 3134674000,
       "market_cap": null,
       "fifty_two_week_high": 7620.9,
       "fifty_two_week_low": 6271.71,
@@ -60,7 +60,7 @@
       "price": 25913.9,
       "change": 540.04,
       "change_pct": 2.13,
-      "volume": 8910398000,
+      "volume": 9814638000,
       "market_cap": null,
       "fifty_two_week_high": 27190.21,
       "fifty_two_week_low": 20690.25,
@@ -75,7 +75,7 @@
       "price": 53178.41,
       "change": 693.38,
       "change_pct": 1.32,
-      "volume": 583405949,
+      "volume": 598189878,
       "market_cap": null,
       "fifty_two_week_high": 53289.3,
       "fifty_two_week_low": 43724.02,
@@ -87,9 +87,9 @@
     "^RUT": {
       "symbol": "^RUT",
       "name": "Russell 2000",
-      "price": 2983.85,
-      "change": 52.51,
-      "change_pct": 1.79,
+      "price": 2983.36,
+      "change": 52.02,
+      "change_pct": 1.77,
       "volume": 0,
       "market_cap": null,
       "fifty_two_week_high": 3046.59,
@@ -102,9 +102,9 @@
     "^VIX": {
       "symbol": "^VIX",
       "name": "CBOE Volatility Index",
-      "price": 15.71,
-      "change": -0.28,
-      "change_pct": -1.75,
+      "price": 15.74,
+      "change": -0.25,
+      "change_pct": -1.56,
       "volume": 0,
       "market_cap": null,
       "fifty_two_week_high": 35.3,
@@ -132,9 +132,9 @@
     "DX-Y.NYB": {
       "symbol": "DX-Y.NYB",
       "name": "ICE US Dollar Index - Index - C",
-      "price": 99.92,
-      "change": 0.0,
-      "change_pct": 0.0,
+      "price": 99.94,
+      "change": 0.03,
+      "change_pct": 0.03,
       "volume": null,
       "market_cap": null,
       "fifty_two_week_high": 101.8,
@@ -147,10 +147,10 @@
     "CL=F": {
       "symbol": "CL=F",
       "name": "Crude Oil Sep 26",
-      "price": 80.32,
-      "change": -4.35,
-      "change_pct": -5.14,
-      "volume": 261056,
+      "price": 80.1,
+      "change": -4.57,
+      "change_pct": -5.4,
+      "volume": 262451,
       "market_cap": null,
       "fifty_two_week_high": 119.48,
       "fifty_two_week_low": 54.98,
@@ -162,10 +162,10 @@
     "GC=F": {
       "symbol": "GC=F",
       "name": "Gold Dec 26",
-      "price": 4110.7,
-      "change": 3.7,
-      "change_pct": 0.09,
-      "volume": 88284,
+      "price": 4106.9,
+      "change": -0.1,
+      "change_pct": -0.0,
+      "volume": 89244,
       "market_cap": null,
       "fifty_two_week_high": 5586.2,
       "fifty_two_week_low": 3310.1,
@@ -177,10 +177,10 @@
     "BTC-USD": {
       "symbol": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 63781.45,
-      "change": 284.2,
-      "change_pct": 0.45,
-      "volume": 25650827264,
+      "price": 63857.58,
+      "change": 360.33,
+      "change_pct": 0.57,
+      "volume": 25635203072,
       "market_cap": null,
       "fifty_two_week_high": 126198.07,
       "fifty_two_week_low": 57747.77,
@@ -192,10 +192,10 @@
     "ETH-USD": {
       "symbol": "ETH-USD",
       "name": "Ethereum USD",
-      "price": 1867.49,
-      "change": -15.66,
-      "change_pct": -0.83,
-      "volume": 8029896704,
+      "price": 1870.19,
+      "change": -12.96,
+      "change_pct": -0.69,
+      "volume": 8012001792,
       "market_cap": null,
       "fifty_two_week_high": 4953.73,
       "fifty_two_week_low": 1506.51,
@@ -217,10 +217,10 @@
       "quote": {
         "symbol": "AMD",
         "name": "Advanced Micro Devices, Inc.",
-        "price": 484.46,
-        "change": 8.31,
-        "change_pct": 1.75,
-        "volume": 21492076,
+        "price": 484.64,
+        "change": 8.49,
+        "change_pct": 1.78,
+        "volume": 23661865,
         "market_cap": null,
         "fifty_two_week_high": 584.73,
         "fifty_two_week_low": 149.22,
@@ -229,13 +229,13 @@
         "exchange": "NMS",
         "market_state": null
       },
-      "price": 484.46,
-      "value": 2544.3839199999998,
-      "day_change": 43.64412,
-      "day_pct": 1.75,
-      "return_pct": 119.92358462841631,
-      "unrealized": 1387.4439199999997,
-      "dist_52w_high_pct": -17.14808544114378,
+      "price": 484.64,
+      "value": 2545.32928,
+      "day_change": 44.58948,
+      "day_pct": 1.78,
+      "return_pct": 120.00529673103185,
+      "unrealized": 1388.3892799999999,
+      "dist_52w_high_pct": -17.1173020026337,
       "news": [
         {
           "title": "AMD to report Q2 earnings as chip stocks continue to waver - Yahoo Finance",
@@ -294,14 +294,14 @@
           "published": "Mon, 03 Aug 2026 17:07:00 GMT"
         },
         {
-          "title": "BA Stock Jumps 7% After Rare Double Upgrade \u2014 FAA's Approval Of Boeing\u2019s 737 MAX 7 Adds To Bullish Momentum - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZEVHbmV1NWUyQzZIdTMxbVRqQkpFS0llMHRmOHhxMjhBWDktelBkQll2bXNtNVE0WmthZ0ozZ0RjOG54alpRb1JDODYyVUI3VUlYQUkzelQ5ejlkSVZmU21yVDlodGZ5ZDcxVWhVMUVBcTVMQnYyT0x2UG1TRE5XQUlEMFdkVEpzM0lzQTRTSQ?oc=5",
-          "published": "Mon, 03 Aug 2026 18:21:39 GMT"
-        },
-        {
           "title": "Boeing Stock Is Gaining Monday: What's Going On? - Benzinga",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM0wyOTRNb0Yxb0k2b1lnQnhZYkNoRnhZZGNyWGZtLWZqempuQTEtTVVkNWpnLThBeHR1TmVSRTNSTXBuQnNnZy1hVGkxS0FDajlNRmpVU2U5aGZrS0lpYzEtZ1h2YXowM09QTUl1US02Q3VYQlBCV2EyZXdOQmJxdlBlRGJiYzhNdm9hT2dwVEQtUm9uUTV1eDIxZnlUNkxtcnltb1NR?oc=5",
           "published": "Mon, 03 Aug 2026 12:09:17 GMT"
+        },
+        {
+          "title": "BA Stock Jumps 7% After Rare Double Upgrade \u2014 FAA's Approval Of Boeing\u2019s 737 MAX 7 Adds To Bullish Momentum - Stocktwits",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWURta290N0FWV1VMbno0bFN2c2ZqX3dWckxJOGQ4b2YyUEtNdTRlUHhvR1JaclZURmU3Y1hkY3hjT0RZTkxrdkFXUnQ5cnNYb29XY0U0SUhyTE9GdUJCQ3JOdkxGNC1SdmxPUnpwNTVud2ZxQnFSYTItWHEzZ2tJQUlpVjZqY29rN09EWkV0SDh1RWVXbjBaRGRjZDBGQmlMNHg5cGpqSjZxMzRBWHlCTEk5cDI3cFY5RDJ1RHhCTWJpZGh1Vl93WDdmV0JtRnM?oc=5",
+          "published": "Mon, 03 Aug 2026 18:21:00 GMT"
         }
       ],
       "reason": "BA is moving higher; aerospace delivery, safety/regulatory, and defense-cycle headlines matter most. Broader Nasdaq tone is +2.13%, so beta/growth names may be market-driven today.",
@@ -692,11 +692,6 @@
       "dist_52w_high_pct": null,
       "news": [
         {
-          "title": "Ahead of SpaceX Earnings, Here's What Barchart Data Says Comes Next for SPCX Stock - Barchart.com",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVFctc01DQnZyWERSbFBEWWVQZWJzcVM4Z2xtNVJrTlFOSVJzamVzeExnUnFuVUthdG93bUdsOXdBMnZTRVdkelNXYlAwT2V0aGRWelFsYWV5TjBrYzNNcGdYNFNnM1BJN1l5QXk4RmJJaXZxa0VrcnU2QXN4RnRBN2FMTmhhRUdGTUh5UUMtdzUwX3d4YjdicXZpbVJZeDBZM1gzalFoTElISlRBUG1pSGk5Y3Mxem00ZUR0TExlRUd1Zzg?oc=5",
-          "published": "Fri, 31 Jul 2026 21:03:39 GMT"
-        },
-        {
           "title": "SpaceX's post-IPO plunge sets tense backdrop for first earnings report - CNBC",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ29lNXQtb24tUVBfNVp6WEU1V2RBSnc1WHpRdDNiU1NQNEg4NEdiU2hsWVUyazhMQmtXYkxxenhUZjBISE5vY2ZrQ0dhV3BsUkh4ZjhyRlJDV240bmNhWUtQdDR6TUNBcDBoTVZBRXBHR3pWa0ZNRmhGOERKTnpwMHNiOUZjOUx6TU5DaVNKQnM2dE9ZYTBySjRKVTBtZUVuWldYeEV0dUxYUdIBrwFBVV95cUxNU1hJMFNsRW9TTzRPXzJid0VQa0JzR3lJVGFvaUJWWVo5ZDk4SUdGdy0zcFFzMG9aeEVHaWRhcDJEVTJDS2RITjJubDJwUVRvLTBwOG9MNDk4Q2x6SDFtVlhkNWQxTnY2em51ZEFaUFlCZlJWT1NzQnNiTE1vc0lsUTYyMjJBOXl6Nk1oRU5WNDFOT3V5YkdsS1FTVFNwRFQ5U1Zfa3A3UWhyQmNtUmg4?oc=5",
           "published": "Mon, 03 Aug 2026 12:00:01 GMT"
@@ -705,6 +700,11 @@
           "title": "SpaceX's first-ever earnings report comes as stock hits new all-time low: Q2 preview - Yahoo Finance",
           "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNakhCc2N6UVhQR0tpb1VXRUx2SlJMMkY0ZXpkNHYza0k3d0NyNWpKcGtBblZrbGVac2FBNEpIS2kyU2NYUmtPN1RQVTB5TFVQSm5FRFhONEppeldIRDdsNWtZYnhoSEhKUzJOemxBcG5Id1p3bUwzX3hzcWNvbk5nal9aTzZNbF85UzgtRURzdUFtYlZqV2x6QmQyUUdtUVFHV2RRemNSZlVWcUFGaVZPYjA2ckZ0NkJNU0JTcDFScjIyWmhROEVmSmp2cUZNeWdqZEh6WkRETmtKZw?oc=5",
           "published": "Mon, 03 Aug 2026 13:33:08 GMT"
+        },
+        {
+          "title": "Wall Street Brunch: SpaceX's Earnings Debut (undefined:SPCX) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMWZ6bDFfTXptN1V1RGRnYktXdEs1a2N3Yk9JblcwZjk0bVZoRDdhR1pQVEJCNkZ5Y2EtRDRpQkVMMUpDMHRpZFNubFVpQllrX0dtNkllb1pDdE9sNkt0R3BDbWRiWEtKVmhvOVdrbHlRLVNsdGlBYmpGUkN2UE9zNWtseGh1bXRTc1E?oc=5",
+          "published": "Sun, 02 Aug 2026 16:15:00 GMT"
         }
       ],
       "reason": "Move driver unavailable from quote feed; check news tape and next data refresh.",
@@ -823,9 +823,9 @@
           "published": "Mon, 03 Aug 2026 13:06:00 GMT"
         },
         {
-          "title": "PLTR Stock Is 40% Off Its Peak: Will Q2 Earnings Turn Things Around For Good? - Stocktwits",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOThfZHRyTWRuQTZLaFFZWEJMWjE4eThiTFNFNm01WVF5MldzQnp0eXNlZWJxVE14c1Q0ZTBSTThHQW02R0VuY0pxSlRESWM4QXl4LTN2T1JQV3JRSExGdkFiblQxQW5SMHJRNTJsOXhmVmlZd0p5eC1JWWVmUGREdE1HbXk5WVFUaWxxNFkydkpIWE1jcmRGOHNZUmpRSjB1Sl9WWjBCUklNRE9iVHhQdnc3d2Vjd0JGOXlFQTdIWXRISHdsRE11andvaXVuZWh5NHVJNg?oc=5",
-          "published": "Mon, 03 Aug 2026 02:33:00 GMT"
+          "title": "Palantir (PLTR) Earnings Preview: 8 Straight Beats, 40% Off Its High, Options Price 12% Swing - TradingKey",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQd2dXTG5KSDJUMVotRWdMOUFlTDB5Q1MyWUxBOERmR0w2QVJRa21BTEZpSHRnQ2hjQXdWU1RZNmU3X0tUQUszMWVXdjlhOGtIUGJzYXNoR3UtRWJMQXlmaUdvM3FnUVV4VUtvWUZmU1VCaXg5WGsxWm5sRk02b1BpMWljWHlnVmVHNmpScnZxbmlETXY3Yk1NYkJfVUx1VWo1MU1ic21wc1lnWXpFekdoWFFNMWJIUGpzbXRuUUhCSDVGdXpfOHlPUmNxX1Y3ZTBOdC1QNnFBOHg?oc=5",
+          "published": "Mon, 03 Aug 2026 15:19:11 GMT"
         }
       ],
       "price": 125.65,
@@ -898,14 +898,14 @@
       },
       "news": [
         {
+          "title": "How to Buy Celsius Stock (CELH) in 2026 - The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRHQ3enJKRmVRc0tuNHdDdUotZXFPMVBUbHduc09XcnN3UC1DV0lXLUZsTzdldFV4VUtTWUt1UmZxejJtODRLQy13bGRDemJZTzNpY1dkUFdGeHNRSGVPSGpxbXU5THFBdHMxeU56LU5iODNJQURBSWtZV2tQVy1tVHlrdlh6bUdJZzVR?oc=5",
+          "published": "Mon, 03 Aug 2026 15:26:34 GMT"
+        },
+        {
           "title": "Why Did CELH Stock Spike Over 8% In After-Hours Trading Today? - Stocktwits",
           "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTlVXVVNfSU1LMVR6OFZ6WkkzU0RBT3E2cDJ2VE5uRlVMek1vMUdUNmRWMlpfUDR3NnJwTDhERUVNUS1Jekw0ZW0waHRzVXVNN1RFY1EzU0tSeDlrNDFaY2VXQnRONnZJSm90dHJFdVZVMG0tZk1FSTVEM21qa0tWUnR6bEZXTHhvNjdIYTQtRDQ2TVJkZ0ZDbTZ0Rm1HZnJBOGQtS0NXNm1MSzE1alVEOUZOZ1ZvaTVSSUJrdzYzSVB4dw?oc=5",
           "published": "Fri, 31 Jul 2026 02:02:40 GMT"
-        },
-        {
-          "title": "Is Celsius Holdings (CELH) One of the Oversold Stocks to Buy Right Now? - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQVZINUN5dGN3Nk1oZVBtLTNSeWVGbUlFUFNqSUtxUkE1VUY2dVpaWm5WMjQ5TmhaM1Y4S1VRamV4MEdXdURLZjdDcVF5cFhIQ1NTdlNpclFZN1hnUTBYRW1PYXRvVlo1MU9KVlh1U2xva0xudDBYSHU5M2Q2RGtRSW9OTVRXd2FTeVRnLUp6ZkdWMnpOaVZzd25YalQxcUs3?oc=5",
-          "published": "Sun, 07 Jun 2026 07:00:00 GMT"
         }
       ],
       "price": 28.23,
