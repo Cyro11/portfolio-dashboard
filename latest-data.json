@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-06T16:00:12.247698-04:00",
-  "mode": "manual",
+  "generated_at": "2026-08-06T16:10:12.510436-04:00",
+  "mode": "close",
   "holdings_source": "Fidelity Roth IRA transaction history + Robinhood brokerage activity CSV, exported/supplied 2026-06-24",
   "method_note": "Open positions reconstructed from transaction history using FIFO lots. Robinhood options/event contracts are summarized separately; private SPCX is carried at transaction cost until a live/private quote is supplied.",
   "account_cash": {
@@ -30,22 +30,22 @@
   },
   "portfolio": {
     "cash_estimate": 5164.64,
-    "total_equity_value": 18777.713272,
-    "total_value_with_cash": 23942.353272,
+    "total_equity_value": 18778.808632,
+    "total_value_with_cash": 23943.448632,
     "total_cost": 12189.12,
-    "unrealized": 6588.593272,
-    "unrealized_pct": 54.053067588144174,
-    "day_change": -226.2240575,
-    "day_pct": -1.1904062488610196
+    "unrealized": 6589.688631999999,
+    "unrealized_pct": 54.062053962878366,
+    "day_change": -225.1286975,
+    "day_pct": -1.1846423906614894
   },
   "market": {
     "^GSPC": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7709.98,
-      "change": -13.57,
+      "price": 7709.96,
+      "change": -13.59,
       "change_pct": -0.18,
-      "volume": 2794241000,
+      "volume": 2911098000,
       "market_cap": null,
       "fifty_two_week_high": 7742.85,
       "fifty_two_week_low": 6310.32,
@@ -60,7 +60,7 @@
       "price": 26348.35,
       "change": -15.09,
       "change_pct": -0.06,
-      "volume": 7096719000,
+      "volume": 7910644000,
       "market_cap": null,
       "fifty_two_week_high": 27190.21,
       "fifty_two_week_low": 20690.25,
@@ -72,10 +72,10 @@
     "^DJI": {
       "symbol": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 53885.16,
-      "change": -463.96,
+      "price": 53885.1,
+      "change": -464.02,
       "change_pct": -0.85,
-      "volume": 400387716,
+      "volume": 416283867,
       "market_cap": null,
       "fifty_two_week_high": 54502.87,
       "fifty_two_week_low": 43799.2,
@@ -87,9 +87,9 @@
     "^RUT": {
       "symbol": "^RUT",
       "name": "Russell 2000",
-      "price": 3001.31,
-      "change": -17.88,
-      "change_pct": -0.59,
+      "price": 3002.74,
+      "change": -16.44,
+      "change_pct": -0.54,
       "volume": 0,
       "market_cap": null,
       "fifty_two_week_high": 3046.59,
@@ -102,9 +102,9 @@
     "^VIX": {
       "symbol": "^VIX",
       "name": "CBOE Volatility Index",
-      "price": 15.32,
-      "change": -0.49,
-      "change_pct": -3.1,
+      "price": 15.25,
+      "change": -0.56,
+      "change_pct": -3.54,
       "volume": 0,
       "market_cap": null,
       "fifty_two_week_high": 35.3,
@@ -132,9 +132,9 @@
     "DX-Y.NYB": {
       "symbol": "DX-Y.NYB",
       "name": "ICE US Dollar Index - Index - C",
-      "price": 99.97,
-      "change": 0.29,
-      "change_pct": 0.29,
+      "price": 99.94,
+      "change": 0.27,
+      "change_pct": 0.27,
       "volume": null,
       "market_cap": null,
       "fifty_two_week_high": 101.8,
@@ -147,10 +147,10 @@
     "CL=F": {
       "symbol": "CL=F",
       "name": "Crude Oil Sep 26",
-      "price": 78.02,
-      "change": 2.8,
-      "change_pct": 3.72,
-      "volume": 206664,
+      "price": 77.67,
+      "change": 2.45,
+      "change_pct": 3.26,
+      "volume": 209457,
       "market_cap": null,
       "fifty_two_week_high": 119.48,
       "fifty_two_week_low": 54.98,
@@ -162,10 +162,10 @@
     "GC=F": {
       "symbol": "GC=F",
       "name": "Gold Dec 26",
-      "price": 4297.7,
-      "change": -7.5,
-      "change_pct": -0.17,
-      "volume": 157506,
+      "price": 4307.7,
+      "change": 2.5,
+      "change_pct": 0.06,
+      "volume": 159178,
       "market_cap": null,
       "fifty_two_week_high": 5586.2,
       "fifty_two_week_low": 3310.1,
@@ -177,10 +177,10 @@
     "BTC-USD": {
       "symbol": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 64445.91,
-      "change": -156.41,
-      "change_pct": -0.24,
-      "volume": 19560183808,
+      "price": 64470.2,
+      "change": -132.12,
+      "change_pct": -0.2,
+      "volume": 19502241792,
       "market_cap": null,
       "fifty_two_week_high": 126198.07,
       "fifty_two_week_low": 57747.77,
@@ -192,10 +192,10 @@
     "ETH-USD": {
       "symbol": "ETH-USD",
       "name": "Ethereum USD",
-      "price": 1908.8,
-      "change": 1.84,
-      "change_pct": 0.1,
-      "volume": 8261099520,
+      "price": 1908.16,
+      "change": 1.2,
+      "change_pct": 0.06,
+      "volume": 8238936064,
       "market_cap": null,
       "fifty_two_week_high": 4953.73,
       "fifty_two_week_low": 1506.51,
@@ -217,10 +217,10 @@
       "quote": {
         "symbol": "AMD",
         "name": "Advanced Micro Devices, Inc.",
-        "price": 489.1,
-        "change": 7.05,
-        "change_pct": 1.46,
-        "volume": 22162940,
+        "price": 489.28,
+        "change": 7.23,
+        "change_pct": 1.5,
+        "volume": 23887374,
         "market_cap": null,
         "fifty_two_week_high": 584.73,
         "fifty_two_week_low": 149.22,
@@ -229,13 +229,13 @@
         "exchange": "NMS",
         "market_state": null
       },
-      "price": 489.1,
-      "value": 2568.7532,
-      "day_change": 37.026599999999995,
-      "day_pct": 1.46,
-      "return_pct": 122.0299410513942,
-      "unrealized": 1411.8132,
-      "dist_52w_high_pct": -16.354556803995006,
+      "price": 489.28,
+      "value": 2569.69856,
+      "day_change": 37.97196,
+      "day_pct": 1.5,
+      "return_pct": 122.11165315400969,
+      "unrealized": 1412.7585599999998,
+      "dist_52w_high_pct": -16.323773365484932,
       "news": [
         {
           "title": "'This was not an exceptional result': Why AMD stock tanked 5% after earnings - Yahoo Finance",
@@ -243,7 +243,7 @@
           "published": "Wed, 05 Aug 2026 17:25:11 GMT"
         },
         {
-          "title": "AMD Falls As Musk Picks Nvidia: BofA Says Ignore The Noise - Advanced Micro Devices (NASDAQ:AMD), NVIDIA - benzinga.com",
+          "title": "AMD Falls As Musk Picks Nvidia: BofA Says Ignore The Noise - Advanced Micro Devices (NASDAQ:AMD), NVIDIA - Benzinga",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZTczd2F4eXYweTVXRTA5NldJMF9lQ1Fsdm5IWDNCeXY0NzQtNm41MUwxb2lIbEwxU3RXdTU1eHVHdEFNYXlrMkNKejkxb3E2eENCWm83eDVHcXBXQTJVd0hRMTlNWkVqYm4zbUZtMWhNSGV4c1VqaDRUSEROY2licTJvazZKbVQ5eUV3NFJuMWx4ZjAwU3dnYms0YVllcFNpTEJjcw?oc=5",
           "published": "Wed, 05 Aug 2026 15:35:22 GMT"
         },
@@ -268,10 +268,10 @@
       "quote": {
         "symbol": "BA",
         "name": "Boeing Company (The)",
-        "price": 232.08,
-        "change": -8.11,
-        "change_pct": -3.38,
-        "volume": 5880521,
+        "price": 232.17,
+        "change": -8.02,
+        "change_pct": -3.34,
+        "volume": 5920553,
         "market_cap": null,
         "fifty_two_week_high": 254.35,
         "fifty_two_week_low": 176.77,
@@ -280,13 +280,13 @@
         "exchange": "NYQ",
         "market_state": null
       },
-      "price": 232.08,
-      "value": 464.16,
-      "day_change": -16.22,
-      "day_pct": -3.38,
-      "return_pct": 19.015384615384622,
-      "unrealized": 74.16000000000003,
-      "dist_52w_high_pct": -8.755651661096907,
+      "price": 232.17,
+      "value": 464.34,
+      "day_change": -16.04,
+      "day_pct": -3.34,
+      "return_pct": 19.061538461538454,
+      "unrealized": 74.33999999999997,
+      "dist_52w_high_pct": -8.720267348142327,
       "news": [
         {
           "title": "Boeing Stock Lifts Dow After Double Upgrade, FAA Certification - Investor's Business Daily",
@@ -319,10 +319,10 @@
       "quote": {
         "symbol": "CIBR",
         "name": "First Trust NASDAQ Cybersecurit",
-        "price": 96.36,
-        "change": -1.21,
-        "change_pct": -1.24,
-        "volume": 1027905,
+        "price": 96.39,
+        "change": -1.18,
+        "change_pct": -1.21,
+        "volume": 1046844,
         "market_cap": null,
         "fifty_two_week_high": 96.86,
         "fifty_two_week_low": 60.07,
@@ -331,13 +331,13 @@
         "exchange": "NGM",
         "market_state": null
       },
-      "price": 96.36,
-      "value": 2890.8,
-      "day_change": -36.3,
-      "day_pct": -1.24,
-      "return_pct": 47.04565801253358,
-      "unrealized": 924.8800000000001,
-      "dist_52w_high_pct": -0.5162089613875697,
+      "price": 96.39,
+      "value": 2891.7,
+      "day_change": -35.4,
+      "day_pct": -1.21,
+      "return_pct": 47.091438105314545,
+      "unrealized": 925.7799999999997,
+      "dist_52w_high_pct": -0.48523642370431436,
       "news": [
         {
           "title": "(CIBR) Equity Market Report (CIBR:CA) - Stock Traders Daily",
@@ -370,10 +370,10 @@
       "quote": {
         "symbol": "CRM",
         "name": "Salesforce, Inc.",
-        "price": 186.73,
-        "change": -6.25,
-        "change_pct": -3.24,
-        "volume": 9188676,
+        "price": 186.82,
+        "change": -6.16,
+        "change_pct": -3.19,
+        "volume": 9213577,
         "market_cap": null,
         "fifty_two_week_high": 269.11,
         "fifty_two_week_low": 146.32,
@@ -382,13 +382,13 @@
         "exchange": "NYQ",
         "market_state": null
       },
-      "price": 186.73,
-      "value": 1120.3799999999999,
-      "day_change": -37.5,
-      "day_pct": -3.24,
-      "return_pct": 13.16969696969696,
-      "unrealized": 130.37999999999988,
-      "dist_52w_high_pct": -30.612017390658103,
+      "price": 186.82,
+      "value": 1120.92,
+      "day_change": -36.96,
+      "day_pct": -3.19,
+      "return_pct": 13.224242424242433,
+      "unrealized": 130.92000000000007,
+      "dist_52w_high_pct": -30.578573817398098,
       "news": [
         {
           "title": "Marc Benioff Says Wall Street's Fears That AI Will Kill Salesforce Are \"Dead Wrong\" Even as CRM Stock Has Fallen Over 30% in 2026. Should Investors Bet on His Conviction? - The Motley Fool",
@@ -401,9 +401,9 @@
           "published": "Thu, 06 Aug 2026 15:15:30 GMT"
         },
         {
-          "title": "Salesforce sets a live webcast to discuss results on Aug. 26 - Stock Titan",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY1cxRUF5SG1sdHJheUo1RlkxLWRIQmRaRHFWTHEyZTF2VF9kaWREOGRyMGwxLWNOMWRFUmNiOUd3SGNuMWpBQ2RKRVNzeTNQM2NiVUFEZWM5cE5lTVB0MFhuN1h5T0FJUnBmN0J6MVhXR1lMcHAwWjlwTjBHaUFxT01VSjhHc21wblM5RWF0cmUzRXZTb2xKbDZ2S0dyYUI2ekZPSzduamdHWENYMkt0a1pGN3RQbjk0QUE?oc=5",
-          "published": "Wed, 05 Aug 2026 20:44:26 GMT"
+          "title": "CRM, NOW, INTU, ADBE: Software Stocks Slide After Figma Flags Surging AI Costs - Stocktwits",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNWp6M3dQZC1zOF91TzRjRGlZOXY2c1RvYTZCeWZzU0Vxb3ppVGhxTl9MNzJiUlk4VXlSTDU4OElDeTlIZzd1SVY2WkFlY19TS3NvYTVBbXZIX2xUS3pYSnpUY2luUThKRGJ0bzM0RnFiSFpxUEV0eGNXT2tVSFBXbTVrd0htWGJJNVhwd0NkcGlZRjZDbjI4UmN1RXk3UnhVTGZMa3FnS3p1bmlZY0o5MTE3VGpsYlhhbmhTNnZ1ZnBJdE0xR2ZhSTFMZkdjUFpDalZPcg?oc=5",
+          "published": "Thu, 06 Aug 2026 02:04:00 GMT"
         }
       ],
       "reason": "CRM is moving lower with growth/AI/software sentiment and Nasdaq risk appetite.",
@@ -421,10 +421,10 @@
       "quote": {
         "symbol": "GOOGL",
         "name": "Alphabet Inc.",
-        "price": 357.96,
-        "change": -4.47,
-        "change_pct": -1.23,
-        "volume": 20115074,
+        "price": 357.75,
+        "change": -4.68,
+        "change_pct": -1.29,
+        "volume": 23995670,
         "market_cap": null,
         "fifty_two_week_high": 408.61,
         "fifty_two_week_low": 194.33,
@@ -433,13 +433,13 @@
         "exchange": "NMS",
         "market_state": null
       },
-      "price": 357.96,
-      "value": 2505.72,
-      "day_change": -31.29,
-      "day_pct": -1.23,
-      "return_pct": 118.72555865921788,
-      "unrealized": 1360.12,
-      "dist_52w_high_pct": -12.395682925038553,
+      "price": 357.75,
+      "value": 2504.25,
+      "day_change": -32.76,
+      "day_pct": -1.29,
+      "return_pct": 118.59724162011176,
+      "unrealized": 1358.65,
+      "dist_52w_high_pct": -12.447076674579675,
       "news": [
         {
           "title": "Stocks making the biggest moves midday: Alphabet, SpaceX, Shopify, Newmont, Insulet, AMD & more - CNBC",
@@ -692,9 +692,9 @@
       "dist_52w_high_pct": null,
       "news": [
         {
-          "title": "SpaceX earnings takeaways: Soaring AI costs outweigh revenue beat in first report since IPO - CNBC",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbkQ2SWFzU2h4SE90dlpQNWNSWE9MOE5uNDFWalVQM0MycXVtQml5WUVBeWwxWEY2X0UwTDVIeE5TZXlxMk51NnFON25iZHMxZXVlLWhRQlVLMzlhWmlFb0Yxa19KYzhRTFdsVjNrZVg2akdVZGgtUE1UU1JobG15cXlYbFPSAYoBQVVfeXFMTXU3SFJRdEZvTUdjYmNITEJwQ2x0eXFMSGRmMkFHeUxQTFRzRUFQZFRTeTdEZGp3cGFPZmdtX0hfOWNGR0xTd0FIaUo2NXRiSDFMUFJVZGVRX2FFMm9SWWdZMmZxX050VlVrcjZCRkxhRjBqWHNXX3M2a1dFNHVqWERZUldOcUE0Nm13?oc=5",
-          "published": "Wed, 05 Aug 2026 00:51:00 GMT"
+          "title": "SpaceX stock could face further pressure as first batch of shares unlock since IPO - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQak1XQXNIUUtHTVVGa1JBajlUZ1ZHVEVUbzdQLWI2SVB5ZUJSTmFmZFVwWjhNN2NTQ3pmSzV3d1lubkV1R1J3ejAtd1JfOFAxQ1V4SVBRc3pnWTRpd254MkRURmRnckVmQ2dDZVRrc1p2WEtIY3FqcHdNQVdoU2NXR0RDdTZEMGN4NTRrelVrUGhRcUlnaXdjSWJkLW9nWHpWRWxlMFNPRzDSAa4BQVVfeXFMTzgtcF92SnYwbVQxNFBtYW5vNGp6SVdWeHBnbXFUbUVPTG4yX1NJU0xEX1RCcTZRSDBKbHB6dkowT3hxTUowT0ROcjQ5RUxmODVGWXoyVlkycjBCQ0xXZzQ2d01IbFhTRzRiaVpXRWVuT05BUWlDUnFCMVFOeTF4akgtbWlNblNGNVd5S1J2VWJhZU9oM0NyMUY1S1QzTDJYZGhxcEdVbXhaTnpzWVdn?oc=5",
+          "published": "Thu, 06 Aug 2026 12:00:01 GMT"
         },
         {
           "title": "SpaceX: The Market May Still Be Misreading The Business - Seeking Alpha",
@@ -702,14 +702,14 @@
           "published": "Thu, 06 Aug 2026 05:01:14 GMT"
         },
         {
-          "title": "SpaceX stock could face further pressure as first batch of shares unlock since IPO - CNBC",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQak1XQXNIUUtHTVVGa1JBajlUZ1ZHVEVUbzdQLWI2SVB5ZUJSTmFmZFVwWjhNN2NTQ3pmSzV3d1lubkV1R1J3ejAtd1JfOFAxQ1V4SVBRc3pnWTRpd254MkRURmRnckVmQ2dDZVRrc1p2WEtIY3FqcHdNQVdoU2NXR0RDdTZEMGN4NTRrelVrUGhRcUlnaXdjSWJkLW9nWHpWRWxlMFNPRzDSAa4BQVVfeXFMTzgtcF92SnYwbVQxNFBtYW5vNGp6SVdWeHBnbXFUbUVPTG4yX1NJU0xEX1RCcTZRSDBKbHB6dkowT3hxTUowT0ROcjQ5RUxmODVGWXoyVlkycjBCQ0xXZzQ2d01IbFhTRzRiaVpXRWVuT05BUWlDUnFCMVFOeTF4akgtbWlNblNGNVd5S1J2VWJhZU9oM0NyMUY1S1QzTDJYZGhxcEdVbXhaTnpzWVdn?oc=5",
-          "published": "Thu, 06 Aug 2026 12:00:01 GMT"
+          "title": "SpaceX Faces Lockup Test As Cathie Wood, Retailers Buy Dip - Investor's Business Daily",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZnEwclI5X1FGX0RDNENkandhTDZIYzVUY3RBRll3bEdiaFZXTEZiUWpQOXdYR3RFYjdkdDhWc05aX1JNem1kR2U2MmhpcTVBUm5CV3RRYVVVVlhkWnZtcnByeFNSSWlmNi1SZXE0ZHZMU2ZrUXVEbEJMSXJSU1F0elJXelo2OGVCdV9JWGtOVm1zMXY1MmE4X2kzOA?oc=5",
+          "published": "Thu, 06 Aug 2026 14:36:00 GMT"
         }
       ],
       "reason": "Move driver unavailable from quote feed; check news tape and next data refresh.",
-      "signal": "REVIEW / SELL",
-      "signal_reason": "Large negative move or material headline detected. Do not average down automatically; check whether forward estimates, regulation, or the core thesis changed."
+      "signal": "HOLD",
+      "signal_reason": "No urgent price/news signal. Keep position, monitor catalysts, and wait for a clearer risk/reward skew before changing sizing."
     }
   ],
   "watchlist": [
@@ -898,14 +898,14 @@
       },
       "news": [
         {
+          "title": "Why Celsius (CELH) Stock Is Down Today - StockStory",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVEN4V3djRmp6X0FiV3pkVUpKb2dCUlU2NDA4eWpmaTlGWk9DNlh2NUJSTlY0UGtocEs1Z0NqcEhqRVJONG1RTGR0dG1QazN5ZFliajQ2TTB3aldYTWJ5Z1VFSEhsZXA2X0lvVnNfU05XdzM3aHVjaGNQa21mZmpwdC1SWVByWFFzM2ZXaUxzbGdLMWVuWEc2NzBGOGhQSFNHcXc?oc=5",
+          "published": "Thu, 06 Aug 2026 20:02:25 GMT"
+        },
+        {
           "title": "Celsius Holdings slides after sales for its namesake brand turn negative (CELH:NASDAQ) - Seeking Alpha",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaWlTVDFUMGxickE4al9fcGI1QW5GWWVZMG1RSF8xNXRWS2FVRURLbi00ZWtqanYtaFNFUjhNclZYOVVONFJPR1cxS2Vnc3dQZ043Q1FGak5tZjRCSVBsTFVXMnRiWTNxR3dBN3hWamF1LWFCeEd3RnBscUJSSDIwTGNwMXNjWnU4MnQ2RXNjUDVDR0tIdEYwaXFCTWxfUEhZR25ETzUtZFYyS3l6UmRJ?oc=5",
           "published": "Thu, 06 Aug 2026 11:10:17 GMT"
-        },
-        {
-          "title": "Why Celsius (CELH) Stock Is Down Today - FinancialContent",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQT0ViNDRtdGxSWjhfYW9XTDl6VW9VUFhidlNhVTFxNEJmRDRuMC1MRFBoNERBaXhSdk0yRGNESDV0NmN1aWJ0OWFSdy1Dcjc0TUI5bEM5UWQ4TGlLYmYycnVfdFdqV1hzS0Fya21zeU9ZVkRYaW5jbk1ONnlYUW1XLU5VM0RtUkhzR285YmYtWEhJY1NBZW5wZmJhcW5JY19pTW1ZT2dXUDVEQVc2?oc=5",
-          "published": "Thu, 06 Aug 2026 19:30:00 GMT"
         }
       ],
       "price": 23.77,
